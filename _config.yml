@@ -1,10 +1,10 @@
-title: HaYeon Kim
+title: hYe807n
 
 subtitle: Portfolio for Artificial Intelligence
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://github.com/hYe807n" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -26,7 +26,7 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: hYe807n
+author: HaYeon Kim
 author_bio: Hi, my name is HaYeon Kim. What a precious person in such a shabby place! :D
 author_email: "rlagkdus55@gmail.com"
 author_location: South Korea
@@ -72,7 +72,6 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
 github_username:  sujaykundu777
 facebook_username: johndoe
 linkedin_username: johndoe
