@@ -1,6 +1,6 @@
 title: hYe807n
 
-subtitle: Portfolio for Artificial Intelligence
+subtitle: Portfolio for ArtificialIntelligence-ComputerVision
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -27,11 +27,11 @@ urls:
 
 author_logo: profile.png
 author: HaYeon Kim
-author_bio: Hi, my name is HaYeon Kim. What a precious person in such a shabby place! :D
+author_bio: A portfolio of studying artificial intelligence at MILAB.
 author_email: "rlagkdus55@gmail.com"
 author_location: South Korea
 author_website_url: "https://github.com/hYe807n"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+typewrite-text: Hi, I'm Kim Hayeon majoring in AI. What a precious person he is in such a shabby place! :D
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
