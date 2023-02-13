@@ -39,20 +39,20 @@ author_work_experiences:
             - company_name: WorldComputer Academy
               company_logo: world.png
               company_url: http://www.bdworld.co.kr/
-              designation: C language teacher
-              description: Language tutor for students
+              designation: Language tutor 
+              description: C Language
               visibility: true
             - company_name: CitCode Academy
               company_logo: cit.png
               company_url: http://citcoding.com/
-              designation: C, C#, Python, Unity, Algorithm, DataStructure teacher
-              description: Private language tutor for students
+              designation: Private language tutor
+              description: C, C#, Python, Unity, Algorithm, DataStructure
               visibility: true
             - company_name: Kimstudy
               company_logo: empty.png
-              company_url: -
-              designation: C, C#, Python, Java, Kotlin, Unity, Algorithm, DataStructure teacher
-              description: Private language tutor for students
+              company_url: _
+              designation: Private language tutor
+              description: C, C#, Python, Java, Kotlin, Unity, Algorithm, DataStructure
               visibility: true
 # Education
 author_education_details:
