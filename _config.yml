@@ -1,6 +1,6 @@
 title: HaYeon Kim
 
-subtitle: ArtificialIntelligence-ComputerVision
+subtitle: AI-ComputerVision
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -53,6 +53,12 @@ author_work_experiences:
               company_url: _
               designation: Private language tutor
               description: C, C#, Python, Java, Kotlin, Unity, Algorithm, DataStructure
+              visibility: true            
+            - company_name: MILab
+              company_logo: empty.png
+              company_url: _
+              designation: Undergraduate researcher
+              description: AI-ComputerVision
               visibility: true
 # Education
 author_education_details:
