@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jekyll
-permalink: /articleReview/categories/jekyll/
+permalink: /articlereview/categories/jekyll/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>

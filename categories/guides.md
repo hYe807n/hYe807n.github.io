@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guides
-permalink: /articleReview/categories/guides/
+permalink: /articlereview/categories/guides/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
