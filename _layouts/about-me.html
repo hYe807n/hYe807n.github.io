@@ -99,13 +99,7 @@ layout: default
       {%- include author_skills.html -%}
     </div>
 
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
-
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
+    
   </div>
   <div class="col-lg-8">
     {% if site.author_bio %}
@@ -113,7 +107,8 @@ layout: default
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %} 
+  {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
@@ -138,7 +133,8 @@ layout: default
         </div>
       </div>
       <br />
-      {% endif %} {% endfor %}
+      {% endif %}
+       {% endfor %}
     </div>
     {% endif %} {% if site.show_author_work_experiences == true %}
     <div class="card">
@@ -184,6 +180,14 @@ layout: default
       </div>
       {% endif %} {% endfor %}
     </div>
+    {% if site.wakatime_username %}
+    <div class="card">
+      <h1>Coding Activity</h1>
+      <br />{%- include coding_activity.html -%} 
+    </div>
+      
+    </div>
+    {% endif %}
     {% endif %}
   </div>
 </div>

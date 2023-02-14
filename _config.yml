@@ -13,8 +13,8 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Articlereview
-      url: /articlereview
+    - text: Paperreview
+      url: /paperreview
     - text: Gallery
       url: /gallery
     # - text: Shop
@@ -126,7 +126,7 @@ show_author_project_details: false
 # pagination of posts
 paginate: 4
 per_page: 4
-paginate_path: "/articlereview/page/:num/"
+paginate_path: "/paperreview/page/:num/"
 
 # minify
 # compress_html:
@@ -162,7 +162,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /articlereview/authors/:slug
+      permalink: /paperreview/authors/:slug
   -
     scope:
       path: 'assets/**'

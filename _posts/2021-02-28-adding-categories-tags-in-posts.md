@@ -4,12 +4,12 @@ title:  "Adding Multiple Categories in Posts"
 summary: "Learn how to add categories in posts"
 author: xplor4r
 date: '2021-02-28 1:35:23 +0530'
-category: ['jekyll','guides', 'sample_category']
-tags: jekyll
+category: ['guides','Segmentation', 'Detection', 'Classification']
+tags: guides
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
-permalink: /articlereview/adding-categories-tags-in-posts/
+permalink: /paperreview/adding-categories-tags-in-posts/
 ---
 
 ## Adding Multiple Categories in Posts
@@ -18,7 +18,7 @@ To add categories in blog posts all you have to do is add a **category** key wit
 
 ```yml
 ---
-category: ['jekyll', 'guides', 'sample_category']
+category: ['guides','Segmentation', 'Detection', 'Classification']
 ---
 ```
 
@@ -32,7 +32,7 @@ Then to render this category using link and pages. All we need to do is,
 ---
 layout: page
 title: Guides
-permalink: /articlereview/categories/your_category_name/
+permalink: /paperreview/categories/your_category_name/
 ---
 
 <h5> Posts by Category : {{ page.title }} </h5>
@@ -45,4 +45,4 @@ permalink: /articlereview/categories/your_category_name/
 ```
 
 Using the category, all the posts associated with the category will be listed on
-`http://localhost:4000/articlereview/categories/your_category_name`
+`http://localhost:4000/paperreview/categories/your_category_name`
