@@ -241,7 +241,8 @@ header {
 
 .navbar-dark .navbar-brand {
     color: #F7118C !important;
-    padding-left: 1%;
+    padding-left: 10px;
+    margin-bottom: 0px !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -249,6 +250,7 @@ header {
 .navbar-dark .navbar-toggler {
     border-color:transparent !important;
 }
+
 
 .navbar-brand-img{
     width: 50px;
@@ -877,6 +879,10 @@ footer {
                 line-height: inherit;
                 white-space: nowrap;
 
+            }
+            .navbar-favicon {
+                margin-right: 0px;
+                padding-right: 0px;
             }
             .jumbotron {
                 padding: 10rem 1rem !important;
