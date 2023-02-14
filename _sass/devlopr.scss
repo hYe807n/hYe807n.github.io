@@ -264,14 +264,16 @@ header {
 }
 
 .img-thumbnail {
-    position: inherit;
+    position: inherit !important;
     padding: .25rem;
     background-color: #000 !important;
     border: 1px solid #020305 !important;
     border-radius: .25rem;
-    max-width: 100%;
+    max-width: 100% !important;
     height: auto;
     margin: 15px;
+    text-align: center !important;
+    width: 100% !important;
 }
 
 .author_bio{
@@ -787,7 +789,7 @@ footer {
     height: 70px;
     text-align: center;
     padding: 20px;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: var(--main-background-color);
     color: var(--main-text-color);
 }
