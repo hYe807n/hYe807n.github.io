@@ -4,7 +4,7 @@ permalink: /paperreview/categories/
 ---
 
 
-<h3>  {{ page.title }} </h3>
+<h3> {{ page.title }} </h3>
 
 <div id="categories">
 {% for category in site.categories %}

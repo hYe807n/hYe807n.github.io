@@ -4,7 +4,7 @@ title: Guides
 permalink: /paperreview/categories/guides/
 ---
 
-<h5> Posts by Category : {{ page.title }} </h5>
+<h5>{{ page.title }}</h5>
 
 <div class="card">
 {% for post in site.categories.guides %}

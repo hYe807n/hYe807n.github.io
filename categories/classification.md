@@ -4,7 +4,7 @@ title: Classification
 permalink: /paperreview/categories/classification/
 ---
 
-<h5> Posts by Category : {{ page.title }} </h5>
+<h5>{{ page.title }}</h5>
 
 <div class="card">
 {% for post in site.categories.classification %}
