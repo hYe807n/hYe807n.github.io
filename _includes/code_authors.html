@@ -1,0 +1,7 @@
+<ul>
+    {% for author in site.authors %}
+        <li>
+            <a href="/codereview/authors/{{ author.username }}">{{ author.name }}</a>
+        </li>
+    {% endfor %}
+ </ul>
