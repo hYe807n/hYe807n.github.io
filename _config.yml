@@ -13,8 +13,10 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Paperreview
+    - text: PaperReview
       url: /paperreview
+    - text: CodeReview
+      url: /codereview
     - text: Gallery
       url: /gallery
     # - text: Shop
