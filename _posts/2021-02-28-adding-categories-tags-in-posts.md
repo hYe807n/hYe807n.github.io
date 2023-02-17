@@ -9,7 +9,7 @@ tags: BC
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
-permalink: /paperreview/adding-categories-tags-in-posts/
+permalink: /paperreview/categories/segmentation/adding-categories-tags-in-posts/
 label: paperreview
 ---
 
