@@ -8,7 +8,8 @@ category: segmentation
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
 usemathjax: true
-permalink: /paperreview/added-multi-author-support/
+permalink: /paperreview/categories/segmentation/
+label: paperreview
 ---
 
 ## Now Multiple Authors Can Create Articles:
