@@ -129,12 +129,17 @@ show_author_project_details: false
 paginate_multiple:
   - paginate: 4
     per_page: 4
-    paginate_path: '/paperreview/page/:num/'
+    paginate_path: '/paperreview/page:num/'
     sub_dir: '/paperreview'
   - paginate: 4
     per_page: 4
-    paginate_path: '/codereview/page/:num/'
+    paginate_path: '/codereview/page:num/'
     sub_dir: '/codereview' 
+
+    
+gems :
+  - jekyll-paginate
+  - jekyll-paginate-multiple
 # minify
 # compress_html:
 #   clippings: all
