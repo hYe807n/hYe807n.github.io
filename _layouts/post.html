@@ -21,9 +21,16 @@ layout: default
   <div class="col-md-4">
     <div class="card">
       <div class="card-header">Categories</div>
+      {% assign categories = page.categories %} {% assign category = categories[0] %} 
+      {% if category == 'segmentation' or category == 'classification' or category == 'detection' %}
       <div class="card-body text-dark">
         {%- include blog_categories.html -%}
       </div>
+      {% else %}
+      <div class="card-body text-dark">
+        {%- include code_categories.html -%}
+      </div>
+      {% endif %}
     </div>
   </div>
   <div class="col-md-4">

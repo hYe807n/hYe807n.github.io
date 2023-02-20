@@ -131,10 +131,10 @@ paginate_multiple:
     per_page: 4
     paginate_path: '/paperreview/page/:num/'
     sub_dir: '/paperreview'
-  # - paginate: 10
-  #   per_page: 4
-  #   paginate_path: '/codereview/page/:num/'
-
+  - paginate: 4
+    per_page: 4
+    paginate_path: '/codereview/page/:num/'
+    sub_dir: '/codereview' 
 # minify
 # compress_html:
 #   clippings: all

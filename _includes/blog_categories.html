@@ -1,9 +1,17 @@
+<div id="#segmentation"></div>
+    <li class="tag-head">
+        <a href="{{ site.baseurl }}/paperreview/categories/segmentation">segmentation</a>
+    </li>
+    <a name="segmentation"></a>
 
-            {% for tag in site.categories %} {% capture tag_name %}{{ tag | first }}{% endcapture %}
-            <div id="#{{ tag_name | slugize }}"></div>
-            <li class="tag-head">
-                <a href="{{ site.baseurl }}/paperreview/categories/{{ tag_name }}">{{ tag_name }}</a>
-            </li>
-            <a name="{{ tag_name | slugize }}"></a>
+<div id="#classification"></div>
+    <li class="tag-head">
+        <a href="{{ site.baseurl }}/paperreview/categories/classification">classification</a>
+    </li>
+    <a name="classification"></a>
 
-            {% endfor %}
+<div id="#detection"></div>
+    <li class="tag-head">
+        <a href="{{ site.baseurl }}/paperreview/categories/detection">detection</a>
+    </li>
+    <a name="detection"></a>
