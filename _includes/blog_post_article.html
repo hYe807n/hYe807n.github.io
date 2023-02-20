@@ -19,7 +19,7 @@
       {% if post %} {% assign categories = post.categories %} {% else %} {%
       assign categories = page.categories %} {% endif %} Category : {% for
       category in categories %}
-      {% if category == 'segmentation' || category == 'classification' || category == 'detection' %}
+      {% if category == 'segmentation' or category == 'classification' or category == 'detection' %}
       <a href="{{site.baseurl}}/paperreview/categories/{{category|slugize}}/">{{category}}</a>
       {% else %}
       <a href="{{site.baseurl}}/codereview/categories/{{category|slugize}}/">{{category}}</a>

@@ -22,7 +22,7 @@ layout: default
     <div class="card">
       <div class="card-header" style="font-size: 30px; white-space:nowrap; margin-right: 10px;">Categories</div>
       {% assign categories = page.categories %} {% assign category = categories[0] %} 
-      {% if category == 'segmentation' || category == 'classification' || category == 'detection' %}
+      {% if category == 'segmentation' or category == 'classification' or category == 'detection' %}
       <div class="card-body text-dark">
         {%- include blog_categories.html -%}
       </div>
