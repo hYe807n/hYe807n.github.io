@@ -126,9 +126,14 @@ show_author_education_details: true
 show_author_project_details: false
 
 # pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/paperreview/page/:num/"
+paginate_multiple:
+  - paginate: 4
+    per_page: 4
+    paginate_path: '/paperreview/page/:num/'
+    sub_dir: '/paperreview'
+  # - paginate: 10
+  #   per_page: 4
+  #   paginate_path: '/codereview/page/:num/'
 
 # minify
 # compress_html:
@@ -178,6 +183,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-admin
+  - jekyll-paginate-multiple
 
 # Jekyll Admin Config
 jekyll_admin:
