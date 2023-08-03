@@ -20,39 +20,42 @@
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Lazy Ren
+title:                 hYe807n
 
 timezone:              Asia/Seoul
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+description:  >
+  Until I can introduce myself,
+  "A developer"
+
 
 # A shorter description for the sidebar.
-tagline:               >
-  Work Hard to be Lazy.
+tagline:  >
+  Until I can introduce myself,
+  "A developer"
+  Yongin University AI Faculty AI Major
 
 # A list of keywords for your blog
-keywords:              ["Development", "C++", "Rust", "Jekyll"]
+keywords:              ["Development", "JAVA", "Study"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/seattle.png
+logo:                  /assets/img/profile.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                DaeIn Lee
-  email:               daein0lee@gmail.com
-  picture:             /assets/img/seattle.png
+  name:                HaYeon Kim
+  email:               rlagkdus55@gmail.com
+  picture:             /assets/img/profile.png
   social:
-    linkedin:          daein-lee-3b6ba9139
-    github:            lazyren
-    stackoverflow:     4294737
-    email:             daein0lee@gmail.com
+    # linkedin:          daein-lee-3b6ba9139
+    github:            hYe807n
+    # stackoverflow:     4294737
+    email:              rlagkdus55@gmail.com
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -67,7 +70,7 @@ legal:
 #     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022. All rights reserved.
+copyright:             © 2023.Hayeon Kim.All rights reserved.
 
 # Format of the permalinks
 # permalink:             /blog/:categories/:year-:month-:day-:title/
@@ -91,7 +94,7 @@ excerpt_separator:     <!--more-->
 
 # Sidebar image and theme color of the site.
 accent_image:
-  background:          center / cover url(/assets/img/music-cat-no-loop.gif)
+  background:          center / cover url(/assets/img/night-sky.gif)
   overlay:             false
 accent_color:          rgb(0,174,239)
 
@@ -213,10 +216,10 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo:                "LazyRen/LazyRen.github.io"
-  repo-id:             "MDEwOlJlcG9zaXRvcnkyNzU4Mjk1NTc="
-  category:            "Comments"
-  category-id:         "DIC_kwDOEHDTNc4B-MIg"
+  repo:                "hYe807n/hYe807n.github.io"
+  repo-id:             "R_kgDOKDGDpw="
+  category:            "Announcements"
+  category-id:         "DIC_kwDOKDGDp84CYVTT"
   mapping:             "pathname"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
