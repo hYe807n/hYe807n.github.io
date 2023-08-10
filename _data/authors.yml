@@ -8,7 +8,6 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    HANA Core Developer at [SAP Labs Korea](https://www.sap.com/korea/about/labs-korea.html).<br>
     Please check my [Resume][resume] to find out more about me!<br>
 
     [resume]: /resume/
@@ -25,10 +24,10 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    linkedin:        daein-lee-3b6ba9139
-    github:          lazyren
-    stackoverflow:   4294737
-    email:           lazy0ren@gmail.com
+    # linkedin:        daein-lee-3b6ba9139
+    github:          hYe807n
+    # stackoverflow:   4294737
+    email:           rlagkdus55@gmail.com
     # rss:             https://lazyren.github.io/feed.xml
     # facebook:        <username>
     # google:          <number>
