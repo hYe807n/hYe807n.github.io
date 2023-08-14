@@ -3,7 +3,7 @@ layout: resume
 title: Resume
 permalink: /resume/
 description: >
-  Hi, I'm DaeIn Lee, SW engineer at Samsung Research.
+  Hi, I'm HaYeon Kim, backend developer an AI student at Yongin University.
 hide_description: true
 sidebar: true
 order: 5
