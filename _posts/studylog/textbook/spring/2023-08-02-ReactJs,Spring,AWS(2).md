@@ -1,25 +1,34 @@
 ---
-title: 서버-정적, 동적 웹 서버 (서블릿 프로그램)
+title: 정적, 동적 웹 서버 (서블릿 프로그램)
 layout: post
-summary: SpringBoot를 위한 정적&동적 웹 서버와 서블릿 프로그램
-author: hYe8o7n
-date: '2023-08-02 22:00:00'
-category: java
-keywords: "#DynamicWebServer #StaticWebServer #Servlet"
-usemathjax: true
-label: study
-thumbnail: "/assets/img/posts/2023/08/20230803_dynamic.png"
+subtitle: SpringBoot를 위한 정적&동적 웹 서버와 서블릿 프로그램
+category: studylog
+tags: java spring
 published: true
 future: true
+related_posts:
+  - _posts/textbook/spring/2023-08-02-ReactJs,Spring,AWS(1).md
 ---
 
-> Server : 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
+> **이 장에서 배울 내용**
+>
+> * Server란
+> * Static Web Server
+> * Dynamic Web Server
+
+<!--more-->
+
+* this unordered seed list will be replaced by the toc
+{:toc}
+
+# > Server 
+    : 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
 
 서버는 <u>네트워크 operation을 수행하는 것</u>으로 클라이언트가 소켓에 연결을 하면, 요청을 받아와 수행하고 응답을 작성해 전달한다. File Transfer Protocol을 사용하면 FTP server, HyperText Transfer Protocol을 사용하면 HTTP 서버가 되는 것이다. (*여기서 FTP는 파일 전송을 위한 프로토콜이고, HyperText Transfer Protocol은 사용자와 WebServer 사이의 문서 전송을 위한 통신 규약을 말한다.*)  
 
 ![Static wEB, Dynamic WEB](https://velog.velcdn.com/images%2Fdyunge_100%2Fpost%2F33a388a4-d96e-499b-b6e5-370ba3e216b6%2Fimage.png)
 
-# Static Web Server
+## Static Web Server
 정적 웹 서버는  <u>리소스 파일을 반환하는 서버</u>이다. 클라이언트가 요청하면, 서버는 이미 저장된 리소스 파일~~~(ex. .png, .html등)~~~을 응답 바디에 넣어 전송한다. 따라서 같은 요청을 하는 사용자들에게 모두 같은 화면을 보여주고, 저장된 데이터가 변하지 않는 한 웹 페이지도 고정된다.
 
 ### 장점
@@ -30,7 +39,7 @@ future: true
 * 서비스가 한정적이다.
 * 추가, 삭제, 수정 등의 작업을 코드로 직접 처리해야한다.
 
-# Dynamic Web Server
+## Dynamic Web Server
 동적 웹 서버는 <u>클라이언트의 요청을 처리한 후의 조건에 따라 웹 페이지를 재구성하거나 템플릿된 html 파일들 중 적절한 값을 대체</u>하여 응답 바디에 전송한다. 사용자는 시간, 조건, 상황, 요청 등에 따라 다른 구성의 웹 페이지를 보게 된다. 이러한 동적 웹 페이지의 구현을 도와주는 것이 바로 *서블릿 엔진/프로그램*이다.
 
 ### 장점
@@ -51,3 +60,6 @@ future: true
 *[[WEB] 정적 웹 페이지와 동적 웹 페이지 - velog](https://velog.io/@dyunge_100/WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80)
 *[정적 웹페이지, 동적 웹페이지의 특징과 장단점 - 네이버블로그](https://blog.naver.com/insaweb/221650456057)
 *[웹이라고 다 같은 웹이 아니에요, 정적 웹과 동적 웹 - 메일리](https://maily.so/grabnews/posts/ce76c9)
+
+Back to [전문가를 위한 C++ (Professional C++) 작성 포스트 모음](professional-cpp-toc){:.heading.flip-title}
+{:.read-more}

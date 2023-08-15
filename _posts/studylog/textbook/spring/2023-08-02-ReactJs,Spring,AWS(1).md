@@ -1,20 +1,25 @@
 ---
-title: "JSON이란?"
+title: "JSON"
 layout: post
-summary: "SpringBoot를 위한 JSON 이해하기"
-author: hYe8o7n
-date: '2023-08-02 21:00:00'
-category: java
-keywords: "#JSON"
-usemathjax: true
-label: study
-thumbnail: "/assets/img/posts/20230725.png"
+subtitle: SpringBoot를 위한 JSON 이해하기
+category: studylog
+tags: java spring
 published: true
 future: true
 ---
 
+> **이 장에서 배울 내용**
+>
+> * JSON이란
+
+<!--more-->
+
+* this unordered seed list will be replaced by the toc
+{:toc}
+
+# > JSON(JavaScript Object Notation)
+    : 오브젝트를 표현하기 위한 문자열
 > 오브젝트 : 메모리상 존재하는 자료구조
-> JSON(JavaScript Object Notation) : 오브젝트를 표현하기 위한 문자열
 
 JSON은 텍스트 문자열을 통해 오브젝트를 표현한다고 했다. A와 B 어플리케이션 사이에 데이터를 교환한다고 해보자. 이 때, 서로 사용하는 언어도 다르고 아키텍처도 다르다고 했을 때 이 <u>둘 모두 이해할 수 있는 형태로 변환</u>을 해야한다. 이를 위해 나온 것이 JSON으로 어떤 프로그래밍 언어로도 사용할 수 있다. 
 
@@ -22,7 +27,7 @@ JSON은 텍스트 문자열을 통해 오브젝트를 표현한다고 했다. A�
 
 이렇게 메모리상의 오브젝트를 다른 형태로 변환하는 작업을 <u>'직렬화'</u>라고 하고, 이 반대를 <u>'역직렬화'</u>라고 한다. A 어플리케이션에 있는 오브젝트의 데이터를 B 어플리케이션이 필요하다고 할 때, A-object가 JSON 형태의 문자열로 직렬화된 후, HTTP 요청 바디 부분에 JSON을 넣어 요청을 전송한다. 그리고 요청을 받은 B 어플리케이션은 HTTP 바디 부분에서 JSON을 꺼내서 다시 역직렬화하여 사용한다. JSON 형태의 코드를 보자
 
-# JSON 문법
+## JSON 문법
 ```json
 {
     "title":"myTitle",
