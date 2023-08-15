@@ -209,7 +209,6 @@ disqus: hye807ngithub
 utterances:
   repo:  "hye807n/hye807n.github.io"
   issue-term: "pathname"
-  label: "Comments"
   theme: "photon-dark"
 
 # You must install giscus github app before use.(https://github.com/apps/giscus)
