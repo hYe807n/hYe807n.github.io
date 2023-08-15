@@ -101,16 +101,16 @@ Java 런타임 환경에서의 구조가 이해하기 힘들었다.
 
 [참고자료]
 <br/>
-* [바이트코드](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)
-* [백기선님 자바스터디 1주차 : JVM이란, 어떻게 동작하나](https://velog.io/@bongf/study-java-whiteship-javaStudy-week1)
-* [[Java] 자바 가상머신 JVM(Java Virtual Machine) 총정리](https://coding-factory.tistory.com/827)
-* [[Java] 자바 JVM 내부 구조와 메모리 구조에 대하여](https://coding-factory.tistory.com/828)
-* [Native Code와 Managed Code란?](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ehgml1644&logNo=220930953263)
-* [JVM의 Runtime Data Area](https://www.holaxprogramming.com/2013/07/16/java-jvm-runtime-data-area/)
-* [JAVA - JNI 사용하기](https://mommoo.tistory.com/71)
-* [[Java] 자바 스레드 동기화 개념 정리 및 활용 (Thread Synchronization)](https://ittrue.tistory.com/173)
-* [ORACLE-Chapter 2. The Structure of the Java Virtual Machine](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-2.html)
-* ["JDK란 무엇인가" 자바 개발 키트 소개와 설치하기](https://www.itworld.co.kr/news/110817)
-
+* [바이트코드](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C)</br>
+* [백기선님 자바스터디 1주차 : JVM이란, 어떻게 동작하나](https://velog.io/@bongf/study-java-whiteship-javaStudy-week1)  
+* [[Java] 자바 가상머신 JVM(Java Virtual Machine) 총정리](https://coding-factory.tistory.com/827)  
+* [[Java] 자바 JVM 내부 구조와 메모리 구조에 대하여](https://coding-factory.tistory.com/828)  
+* [Native Code와 Managed Code란?](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ehgml1644&logNo=220930953263)  
+* [JVM의 Runtime Data Area](https://www.holaxprogramming.com/2013/07/16/java-jvm-runtime-data-area/)  
+* [JAVA - JNI 사용하기](https://mommoo.tistory.com/71)  
+* [[Java] 자바 스레드 동기화 개념 정리 및 활용 (Thread Synchronization)](https://ittrue.tistory.com/173)  
+* [ORACLE-Chapter 2. The Structure of the Java Virtual Machine](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-2.html)  
+* ["JDK란 무엇인가" 자바 개발 키트 소개와 설치하기](https://www.itworld.co.kr/news/110817)  
+ 
 <!-- Back to [전문가를 위한 C++ (Professional C++) 작성 포스트 모음](professional-cpp-toc){:.heading.flip-title}
 {:.read-more} -->

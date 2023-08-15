@@ -55,11 +55,11 @@ related_posts:
 
 [참고자료]
 <br/>
-*[서버가 뭔지 알기 쉽게 설명해줄게!](https://contents.premium.naver.com/3mit/wony/contents/220117230634163vp)
-*[React.js, 스프링 부트, AWS로 배우는 웹 개발 101 | 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)
-*[[WEB] 정적 웹 페이지와 동적 웹 페이지 - velog](https://velog.io/@dyunge_100/WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80)
-*[정적 웹페이지, 동적 웹페이지의 특징과 장단점 - 네이버블로그](https://blog.naver.com/insaweb/221650456057)
-*[웹이라고 다 같은 웹이 아니에요, 정적 웹과 동적 웹 - 메일리](https://maily.so/grabnews/posts/ce76c9)
+*[서버가 뭔지 알기 쉽게 설명해줄게!](https://contents.premium.naver.com/3mit/wony/contents/220117230634163vp)  
+*[React.js, 스프링 부트, AWS로 배우는 웹 개발 101 | 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)  
+*[[WEB] 정적 웹 페이지와 동적 웹 페이지 - velog](https://velog.io/@dyunge_100/  WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80)  
+*[정적 웹페이지, 동적 웹페이지의 특징과 장단점 - 네이버블로그](https://blog.naver.com/insaweb/221650456057)  
+*[웹이라고 다 같은 웹이 아니에요, 정적 웹과 동적 웹 - 메일리](https://maily.so/grabnews/posts/ce76c9)  
 
 Back to [전문가를 위한 C++ (Professional C++) 작성 포스트 모음](professional-cpp-toc){:.heading.flip-title}
 {:.read-more}

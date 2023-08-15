@@ -65,7 +65,7 @@ based on the jekyll theme [Hydejack].
 
 <!-- Links -->
 [YongIn University]: https://www.yongin.ac.kr/
-[heavy gamer]: https://steamcommunity.com/id/lazyren
+[heavy gamer]: https://steamcommunity.com/id/kh701201/
 [resume]: /resume/
 <!-- [original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html -->
 [Hydejack]: https://hydejack.com

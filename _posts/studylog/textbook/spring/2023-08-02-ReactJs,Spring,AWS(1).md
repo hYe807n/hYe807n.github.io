@@ -43,6 +43,6 @@ JSON은 텍스트 문자열을 통해 오브젝트를 표현한다고 했다. A�
 
 [참고자료]
 <br/>
-*[JSON 기초 - 코딩의 시작, TCP School](http://www.tcpschool.com/json/json_intro_basic)
-*[JSON 기초 문법 정리 - 인파 - 티스토리](https://inpa.tistory.com/entry/JSON-%F0%9F%93%91-JSON-%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC)
+*[JSON 기초 - 코딩의 시작, TCP School](http://www.tcpschool.com/json/json_intro_basic)  
+*[JSON 기초 문법 정리 - 인파 - 티스토리](https://inpa.tistory.com/entry/JSON-%F0%9F%93%91-JSON-%EA%B8%B0%EC%B4%88-%EC%A0%95%EB%A6%AC)  
 *[React.js, 스프링 부트, AWS로 배우는 웹 개발 101 | 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)
