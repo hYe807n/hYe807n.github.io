@@ -201,7 +201,7 @@ comments:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                lazyrengithub
+disqus:                haYe807ngithub
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
@@ -218,7 +218,7 @@ comments:
 giscus:
   repo:                "hYe807n/hYe807n.github.io"
   repo-id:             "R_kgDOKDGDpw"
-  category:            "Announcements"
+  category:            "General"
   category-id:         "DIC_kwDOKDGDp84CYVTT"
   mapping:             "pathname"
   strict:              "0"
