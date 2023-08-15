@@ -144,7 +144,7 @@ defaults:
 
   # Don't include site verification file(for google) in the sitemap
   - scope:
-      path:            google93abcae935f31b7d.html
+      path:            dx6s9V9nsMmm95KmB7RCSxErzxov2NtHxN6yNuDVnbo.html
     values:
       sitemap:         false
 
@@ -217,12 +217,14 @@ comments:
 # https://giscus.vercel.app/
 giscus:
   repo:                "hYe807n/hYe807n.github.io"
-  repo-id:             "R_kgDOKDGDpw="
+  repo-id:             "R_kgDOKDGDpw"
   category:            "Announcements"
   category-id:         "DIC_kwDOKDGDp84CYVTT"
   mapping:             "pathname"
+  strict:              "0"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
+  input-position:      "bottom"
   theme:               "dark_dimmed"
   data-lang:           "en"
   crossorigin:         "anonymous"
