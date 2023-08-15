@@ -196,18 +196,18 @@ google_analytics:      UA-68290006-3
 
 # Set which comment system to use
 comments:
-  # 'disqus' / 'giscus' / 'uttutteranceserances' are available
-  provider: 'giscus'
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider: 'utterances'
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus: hYe807ngithub
+disqus: hye807ngithub
 
 # You must install utterances github app before use.(https://github.com/apps/utterances)
 # Make sure all variables are set properly. Check below link for detail.
 # https://utteranc.es/
 utterances:
-  repo:  "hYe807n/hYe807n.github.io"
+  repo:  "hye807n/hye807n.github.io"
   issue-term: "pathname"
   label: "Comments"
   theme: "photon-dark"
@@ -216,7 +216,7 @@ utterances:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo: "hYe807n/hYe807n.github.io"
+  repo: "hye807n/hye807n.github.io"
   repo-id: "R_kgDOKDGDpw"
   category: "General"
   category-id: "DIC_kwDOKDGDp84CYVTT"
