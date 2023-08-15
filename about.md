@@ -10,7 +10,7 @@ order: 1
 ## Hello, World!
 
 Hi, I'm **HaYeon Kim**, *a.k.a.* **hYe807n**.<br>
-I'm currently studying to become a [back-end developer], and previsouly was CSE student of **[YongIn University]**.<br>
+I'm currently studying to become a back-end developer, and previsouly was CSE student of **[YongIn University]**.<br>
 And I'm also a [heavy gamer]!<br>
 Pleaseh check my [resume] if you wish to know more about me.
 
@@ -56,7 +56,7 @@ Did you lose anything?
 
 ***
 
-Blog created by DaeIn Lee on July 19. 2018 in Vancouver,<br>
+Blog created by HaYeon Kim on Agust 15. 2023 in Seoul,<br>
 based on the jekyll theme [Hydejack].
 
 ***
@@ -64,9 +64,8 @@ based on the jekyll theme [Hydejack].
 <!--author-->
 
 <!-- Links -->
-[SAP Labs Korea]: https://www.sap.com/korea/about/labs-korea.html
 [YongIn University]: https://www.yongin.ac.kr/
 [heavy gamer]: https://steamcommunity.com/id/lazyren
 [resume]: /resume/
-[original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html
+<!-- [original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html -->
 [Hydejack]: https://hydejack.com
