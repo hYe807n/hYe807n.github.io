@@ -39,7 +39,7 @@ public class TodoService {
     }
 }
 ```
-Todo 목록들을 관리하는 Todo Application을 만든다고 해보자. 여기에는 Todo list들을 관리하는 TodoService 객체가 있다. <>TodoService는 FileTodoPersistence를 활용하고 있고, TodoService는 FileTodoPersistence 없이는 제 기능을 할 수 없다. 이를 우리는 TodoService가 FileTodoPersistence에 의존</u>한다고 볼 수 있다.
+Todo 목록들을 관리하는 Todo Application을 만든다고 해보자. 여기에는 Todo list들을 관리하는 TodoService 객체가 있다. <u>TodoService는 FileTodoPersistence를 활용하고 있고, TodoService는 FileTodoPersistence 없이는 제 기능을 할 수 없다. 이를 우리는 TodoService가 FileTodoPersistence에 의존</u>한다고 볼 수 있다.
 나중에 개발이 더 진행되어서 100 개의 클래스가 쓰였는데 이제 File에 저장하지 않고 DataBase에 저장한다고 해보자. 그럼 우리는 수 많은 코드 줄 사이에서 100 개의 클래스들의 형식을 일일히 바꿔주어야 할 것이다. 심지어 저렇게 object 내에서 field 값을 초기화 하는 경우 단위 테스트 또한 어렵기 때문에 껍데기만 있는 클래스~~(Mock Class)~~를 사용해야한다. 이러한 문제점들을 해결하는 것이 <u>의존성 주입</u>이다. 대표적으로 두 가지 방법으로 구현되는데 **(1) 생성자를 이용해 주입**하는 방법과 **(2) Setter를 이용해 주입** 하는 방법이 있다.
 ```java
 public class TodoService { // 생성자를 이용해 주입
