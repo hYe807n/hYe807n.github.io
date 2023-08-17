@@ -21,8 +21,8 @@ related_posts:
 * this unordered seed list will be replaced by the toc
 {:toc}
 
-# > Server 
-    : 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
+# Server 
+> : 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
 
 서버는 <u>네트워크 operation을 수행하는 것</u>으로 클라이언트가 소켓에 연결을 하면, 요청을 받아와 수행하고 응답을 작성해 전달한다. File Transfer Protocol을 사용하면 FTP server, HyperText Transfer Protocol을 사용하면 HTTP 서버가 되는 것이다. (*여기서 FTP는 파일 전송을 위한 프로토콜이고, HyperText Transfer Protocol은 사용자와 WebServer 사이의 문서 전송을 위한 통신 규약을 말한다.*)  
 
@@ -50,17 +50,17 @@ related_posts:
 * 클라이언트에게 웹 페이지를 전송하기 전에 처리해야 하기 때문에 속도가 느리다.
 * 웹 서버 외의 처리를 위한 어플리케이션 서버가 필요하기 때문에 비용이 든다.
 
-***자바 서블릿 엔진**<br/>
+> **자바 서블릿 엔진**<br/>
 서블릿 엔진은 동적 웹 페이지 구현을 위한 서버 프로그램이다. 개발을 하기 위해 서블릿 엔진이 이해할 수 있는 형식인 HttpsServlet을 상속 받는 클래스를 작성하여 어느 비즈니스 로직을 어떤 요청일 때 실행할 지 지정할 수 있다. 이렇게 하면 개발자는 서버를 처음부터 구현하지 않고도 비즈니스 로직을 구현하고 배포할 수 있다. *(스프링 부트 역시 내부적으로 서블릿 엔진을 사용한다고 한다.)*
-
-[참고자료]
 <br/>
-*[서버가 뭔지 알기 쉽게 설명해줄게!](https://contents.premium.naver.com/3mit/wony/contents/220117230634163vp)  
-*[React.js, 스프링 부트, AWS로 배우는 웹 개발 101 | 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)  
-*[[WEB] 정적 웹 페이지와 동적 웹 페이지 - velog](https://velog.io/@dyunge_100/  WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80)  
-*[정적 웹페이지, 동적 웹페이지의 특징과 장단점 - 네이버블로그](https://blog.naver.com/insaweb/221650456057)  
-*[웹이라고 다 같은 웹이 아니에요, 정적 웹과 동적 웹 - 메일리](https://maily.so/grabnews/posts/ce76c9)
-*[React.js, 스프링 부트, AWS로 배우는 웹 개발 101 | 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)  
+<br/>
+
+[참고자료]<br/>
+* [서버가 뭔지 알기 쉽게 설명해줄게!](https://contents.premium.naver.com/3mit/wony/contents/220117230634163vp)
+* [[WEB] 정적 웹 페이지와 동적 웹 페이지 - velog](https://velog.io/@dyunge_100/WEB-%EC%A0%95%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%99%80-%EB%8F%99%EC%A0%81-%EC%9B%B9-%ED%8E%98%EC%9D%B4%EC%A7%80)  
+* [정적 웹페이지, 동적 웹페이지의 특징과 장단점 - 네이버블로그](https://blog.naver.com/insaweb/221650456057)  
+* [웹이라고 다 같은 웹이 아니에요, 정적 웹과 동적 웹 - 메일리](https://maily.so/grabnews/posts/ce76c9)
+* [React.js, 스프링 부트, AWS로 배우는 웹 개발 101, 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)
 
 <!-- Back to [전문가를 위한 C++ (Professional C++) 작성 포스트 모음](professional-cpp-toc){:.heading.flip-title}
 {:.read-more} -->
