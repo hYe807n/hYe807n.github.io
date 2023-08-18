@@ -47,14 +47,13 @@ gradle을 추천하는 이유와 Build Tool에 대한 이해가 필요하다면 
 
 압축 해제한 프로젝트는 eclipse에서 `project import`를 해주면 된다. (import 하는 과정은 사용하는 IDEA 마다 상이하므로 생략하므로 생략했다.) 그럼 src 폴더 내에 source code 파일이 생성되고, 단위 테스트를 실행할 수 있는 test 펄도와 gradle 파일이 생성된 것을 볼 수 있다.
 
-![결과 이미지](./img/2023-08-17/1.png)
+![결과 이미지](https://github.com/hYe807n/hYe807n.github.io/blob/master/_posts/studylog/textbook/spring/img/2023-08-17/1.png?raw=true)
 
 .<br/>
 .<br/>
 .<br/>
 .<br/>
 .<br/><br/>
-
 
 **글을 마치며...**<br/>
 Springinitializr를 통해 처음 프로젝트를 설정하고 생성하는 과정에서  무작정 책을 따라하는 것보다 왜 이걸 선택해야하는지를 알고 생성해야 나중에 혼자 프로젝트를 생성할 때도 수월하게 할 수 있을 것 같아서 모르는 것을 하나 하나 알아보느라 시간이 꽤 소요된 것 같다.  
