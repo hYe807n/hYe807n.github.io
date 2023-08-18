@@ -45,7 +45,7 @@ gradle을 추천하는 이유와 Build Tool에 대한 이해가 필요하다면 
 .<br/>
 .<br/><br/>
 
-압축 해제한 프로젝트는 eclipse에서 `project import`를 해주면 된다. (import 하는 과정은 사용하는 IDEA 마다 상이하므로 생략하므로 생략했다.) 그럼 src 폴더 내에 source code 파일이 생성되고, 단위 테스트를 실행할 수 있는 test 펄도와 gradle 파일이 생성된 것을 볼 수 있다.
+압축 해제한 프로젝트는 eclipse에서 `project import`를 해주면 된다. (import 하는 과정은 사용하는 IDEA 마다 상이하므로 생략했다.) 그럼 src 폴더 내에 source code 파일이 생성되고, 단위 테스트를 실행할 수 있는 test 펄도와 gradle 파일이 생성된 것을 볼 수 있다.
 
 ![결과 이미지](https://github.com/hYe807n/hYe807n.github.io/blob/master/_posts/studylog/textbook/spring/img/2023-08-17/1.png?raw=true)
 
