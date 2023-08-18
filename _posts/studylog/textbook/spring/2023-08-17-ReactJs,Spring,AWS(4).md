@@ -60,7 +60,6 @@ Springinitializr를 통해 처음 프로젝트를 설정하고 생성하는 과�
 지금에야 그냥 책을 따라하면 진도를 금방 나갈 수 있겠지만 혼자 프로젝트를 생성해야할 때가 오면 오늘 공부한 게 빛을 보지 않을까?  
 
 
-
 [참고자료]<br/>  
 * [React.js, 스프링 부트, AWS로 배우는 웹 개발 101, 김다정 - 교보...](https://product.kyobobook.co.kr/detail/S000001805062)  
 * [Develop/Spring+JPA [Spring] Initializr로 스프링 부트 기반 프로젝트 생성](https://yeonyeon.tistory.com/67)  
