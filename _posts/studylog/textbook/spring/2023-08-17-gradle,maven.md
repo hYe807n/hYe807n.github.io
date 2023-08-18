@@ -25,10 +25,13 @@ future: true
 Spring 프로젝트를 시작할 때 주로 Sprig Boot 를 통해 프로젝트를 설정해주고는 하는데, 이 때 가장 먼저 spring initializr에서 프로젝트를 build할 tool을 지정해줘야한다. 선택지로는 gradle과 maven 두 가지가 있는데, 이 두 가지의 개념과 차이점이 뭘까?
 ~~사실 [내가 지금 공부하는 책](https://product.kyobobook.co.kr/detail/S000001805062)에서는 별도의 설명없이 gradle을 선택하라고 했지만, 나는 궁금한 것이 해결이 안 되면 다음 내용도 이해가 잘 안가는 편인지라 알아보게 되었다.~~
 
+
+
 # 빌드 관리 도구(Build  Tool)
 
 > **빌드(Build)**<br/>
 우선 빌드는 소스코드 파일을 WAS(Web Application Server)가 인식할 수 있는 형식으로 변환하는 것이다.다시 말해, 우리의 소스코드(.java 형식)에서 사용한 라이브러리나 설정한 환경들을 정리해서 WAS가 인식할 수 있도록 패키징하는 것이다. 빌드 후에는 소스코드를 컴파일해서 .class 파일로 만들고 우리가 사용한 resource 들을 .class에 압축하는 과정을 거친다. *[(JVM의 구조와 흐름을 알고싶다면)](https://hye807n.github.io/studylog/young-java-study.html)*
+
 
 
 먼저 maven과 gradle 모두 빌드 관리 도구(Build Tool) 중 하나이다. 그렇다면 빌드 관리 관리 도구는 무슨 일을 할까? 
@@ -170,6 +173,7 @@ build과 test 실행 결과 gradle이 훨씬 빠르고, **gradle은 cache를 사
 지금 [내가 보고 있는 책](https://product.kyobobook.co.kr/detail/S000001805062)에서는 별도의 설명 없이 spring 프로젝트를 설정할 때 빌드 관리 도구로 gradle을 선택하라고 했는데, 막상 사이트를 들어가보니 선택지가 maven과 gradle 두 가지가 있었다.  
 기존에 java 프로젝트를 진행할 때에도 gradle file이 자주 보였던 터라 궁금하던 찰나에 이왕 공부할 거 두 가지의 차이점에 대해 알고 있으면 이해하는데에 도움이 될 것 같아서 공부하게 되었다.  
 Maven, Gradle을 알아보면서 빌드 관리 도구에 대한 개념도 알게 되었는데, 지금이야 gradle이 워낙 많이 쓰여서 나도 당연히 쓰는 구나 하고 써왔었는데 그 전에 Maven과 Ant가 존재했고 문법을 비교해보니 gradle 덕분에 관리를 훨씬 편하게 할 수 있었구나 하고 알게 되었다. 아직 완벽히 이해했다고 말하기는 힘들지만 그래도 지금껏 Java를 사용하면서 계속 딸려있던 gradle의 존재 이유와 필요성에 대해서 알고나니 더 도움이 될 것 같다.  
+
 
 [참고자료]<br/>
 * [Maven 보다 Gradle을 선호하는 이유를 알아보자!](https://velog.io/@limsubin/Maven-%EB%B3%B4%EB%8B%A4-Gradle%EC%9D%84-%EC%84%A0%ED%98%B8%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0%EB%A5%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
