@@ -1,7 +1,7 @@
 ---
 title: "자바 기초 이해하기-JVM, JRE, JDK"
 layout: post
-subtitle: "자바 기초 이해하기"
+subtitle: "자바 기초"
 category: studylog
 tags: java
 published: true

@@ -10,7 +10,8 @@ future: true
 
 > **이 장에서 배울 내용**
 >
-> * SpringBoot 프로젝트 설정
+> * Spring initializr 사용하기
+> * Spring initializr 구성 요소
 
 
 <!--more-->
