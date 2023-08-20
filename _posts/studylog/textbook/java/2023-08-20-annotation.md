@@ -10,7 +10,9 @@ future: true
 
 > **이 장에서 배울 내용**
 >
-> * Anno
+> * Annotation 개념
+> * Annotation 용도
+> * Annotation 예시
 
 <!--more-->
 
@@ -53,14 +55,21 @@ public void oldOne() {
 ```  
 @Deprecated는 field, method, type 등에 붙일 수 있고 @Deprecated annotation이 붙어있는 method나 field를 사용하면 build할 때 warining messaged가 뜬다. compiler에게 이 method는 곧 없어질 것이라는 것을 알려주고 경고하는 용도이다.  
 
+
+
 .<br/>
 .<br/>
 .<br/>
 .<br/>
-.<br/><br/>
+.<br/><br/>  
+
+
   
-비교적으로 자주 접할 수 있는 @Deprecated annotation을 예시로 보면 알 수 있듯이 <u>annotation은 비즈니스 로직에 직접적으로 영향을 주지 않고 Data에 대한 방향과 설명을 하기 위한 용도</u>로 자주 쓰인다.  
+비교적으로 자주 접할 수 있는 @Deprecated annotation을 예시로 보면 알 수 있듯이 <u>annotation은 비즈니스 로직에 직접적으로 영향을 주지 않고 Data에 대한 방향과 설명을 하기 위한 용도</u>로 자주 쓰인다.    
 내장 annotation말고 costom annotation도 따로 만들어서 사용할 수 있지만 아직 사용할 일이 없었으므로 추후에 사용하게 되면 추가적으로 내용을 덧붙일 예정이다.  
+<br/>
+<br/>
+<br/>
 
 
 
