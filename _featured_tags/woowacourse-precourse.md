@@ -2,9 +2,9 @@
 layout: tag-list
 type: tag
 title: Woowacourse Precourse 6
-slug: woowacourse-precourse
+slug: woowacourse-precourse-6
 category: review
 sidebar: false
 description: >
-   Woowacourse precourse self-learning record.
+   Woowacourse precourse season 6 self-learning record.
 ---
