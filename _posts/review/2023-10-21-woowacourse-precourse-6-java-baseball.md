@@ -1,7 +1,7 @@
 ---
 title: "[우아한 테크코스-프리코스 1주차] 숫자야구게임 설계"
 layout: post
-subtitle: "woowacourse precourse 7 - 1st week mission"
+subtitle: "woowacourse precourse 6 - 1st week mission"
 category: review
 tags: java woowacourse-precourse-6
 published: true
@@ -65,16 +65,16 @@ future: true
 ## View
 - InputView
   - Method
-    - [ ] 플레이어 수 입력 
-    - [ ] 게임 재시작/종료 1과 2중 하나의 수 입력 
+    - [x] 플레이어 수 입력 
+    - [x] 게임 재시작/종료 1과 2중 하나의 수 입력 
     - camp.nextstep.edu.missionutils.Console - `readLine()` 사용
 - OutputView
   - Method
-    - [ ] 플레이어 - 컴퓨터 점수 출력
-    - [ ] 하나도 없는 경우(낫싱) 경우 출력
-    - [ ] 3개의 숫자를 모두 맞힐 경우(3스트라이크) 경우 출력
-    - [ ] 게임 시작 문구 출력
-    - [ ] 게임 재시작/종료 문구 출력 
+    - [x] 플레이어 - 컴퓨터 점수 출력
+    - [x] 하나도 없는 경우(낫싱) 경우 출력
+    - [x] 3개의 숫자를 모두 맞힐 경우(3스트라이크) 경우 출력
+    - [x] 게임 시작 문구 출력
+    - [x] 게임 재시작/종료 문구 출력 
 
 ## Controller
 - StateController
