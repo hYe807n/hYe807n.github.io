@@ -3,7 +3,7 @@ title: "[우아한 테크코스-프리코스 1주차] 숫자야구게임 설계"
 layout: post
 subtitle: "woowacourse precourse 7 - 1st week mission"
 category: review
-tags: java woowacourse-precourse
+tags: java woowacourse-precourse-6
 published: true
 future: true
 ---
