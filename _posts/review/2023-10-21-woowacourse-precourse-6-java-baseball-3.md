@@ -19,12 +19,14 @@ future: true
 
 # 프로그래밍 요구 사항 - 제공 API 사용
 ![프로그래밍 요구사항](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/94b38136-c470-4f45-bff8-e1481c8eda6c)
-</br>
+
+<br/>
 
 프로그래밍 요구 사항에 사용해야하는 API 두 가지가 있다. 코드 내에서 `Ctrl+B`를 누르면 내부 함수로 타고 들어갈 수 있다.
 이제 이 API를 활용하기 위해 내부 코드를 탐색해보자!
-</br>
-</br>
+
+<br/>
+<br/>
 
 ## 1. camp.nextstep.edu.missionutils.Console
 ### readLine()
@@ -61,9 +63,8 @@ public class Console {
 
 평소에 입력 기능을 위해 자주 사용하던 Scanner를 왜 다시 감싸줬을까? 뭐가 달라졌을까? 를 고민하다가 그럼 *요구사항대로 하지 않았을 때 어떤 상황을 방지하려고 이 요구사항을 추가했을까?* 를 생각해보았다.
 결론은 **Scanner 개체 생성 남발을 방지하고 싱글톤 패턴을 위해서** 라고 판단했다.
-</br>
-</br>
-
+<br/>
+<br/>
 
 ## 2. camp.nextstep.edu.missionutils.Randoms
 ### pickNumberInRange()

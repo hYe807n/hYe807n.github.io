@@ -60,7 +60,7 @@ future: true
     <summary>InputView.java</summary>
 
 ```java
-    package baseball.view;
+package baseball.view;
 
 import camp.nextstep.edu.missionutils.Console;
 
@@ -89,6 +89,37 @@ Controller 가 Model-View를 중재한다.
 
 먼저 Controller 가 중재하기 위해 **사용할 재료(Field)값을 가지고 있는 Model**과, **사용할 기능(Method)를 가지고 있는 View**를 먼저 구현해야 하지 않을까? 라고 생각했다. 그리고 낫싱, 볼, 스트라이크를 제외한 긴 문장들은 **의도를 전달하고자 상수로 정의**해주었다.
 요구사항에 따라 InputView.java 에서 사용된 `amp.nextstep.edu.missionutils.Console.readLine()` 함수에 대한 분석은 [이전 포스팅](https://hye807n.github.io/review/woowacourse-precourse-6-java-baseball-3.html)에서 다루었다.
-</br>
 
-### 2. Random
+<br/>
+
+### 2. random/RandomNumber.java
+<details>
+    <summary>RandomNumber.java</summary>
+    
+```java
+package baseball.Random;
+
+import camp.nextstep.edu.missionutils.Randoms;
+import java.util.ArrayList;
+import java.util.List;
+
+public class RandomNumber {
+
+    public List<Integer> randomNumberGenerator() {
+        List<Integer> randomNumberList = new ArrayList<>();
+
+        while (randomNumberList.size() < 3) {
+            int randomNumber = Randoms.pickNumberInRange(1, 9);
+            if (!randomNumberList.contains(randomNumber)) {
+                randomNumberList.add(randomNumber);
+            }
+        }
+        return randomNumberList;
+    }
+}
+
+```
+</details>
+
+
+View를 통해 Controller 가 사용할 기능들을 만들어주었다면, Model을 구현하기에 앞서 **Model의 랜덤한 정수 3 개로 구성된 List 형식의 Field 값을 반환해 줄 RandomNumber class를 구현**하였다.

@@ -56,11 +56,16 @@ future: true
 
 # 구현 기능 목록
 ```
+
 # 구현 기능 목록
 ## Model
 - ComputerModel
   - Field 
     - [ ] 중복되지 않은 임의의 숫자 3 개
+  - Method
+    - [ ] 플레이어 - 컴퓨터 점수 계산
+      - 숫자 포함 O, 자리 x -> 볼
+      - 숫자 포함 O, 자리 O -> 스트라이크
 
 ## View
 - InputView
@@ -83,13 +88,10 @@ future: true
   - Method
     - [ ] 게임 재시작/종료 조정
     - [ ] **잘못된 값 입력 시 `IllegalArgumentException` 발생 후 종료**
-- ScoreController
-  - Method
-    - [ ] 플레이어 - 컴퓨터 점수 계산 
 
 ## RandomNumber
   - Method
-    - [ ] 중복되지 않은 임의의 숫자값 3 개 반환
+    - [x] 중복되지 않은 임의의 숫자값 3 개 반환
     **camp.nextstep.edu.missionutils.Randoms - `pickNumberInRange()`**
 
 ```
