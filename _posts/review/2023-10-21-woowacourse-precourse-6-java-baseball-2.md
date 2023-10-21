@@ -14,7 +14,7 @@ future: true
 {:toc}
 
 
-**[우아한 테크코스 1주차 미션 숫자 야구 게임 GitHub](https://github.com/woowacourse-precourse/java-baseball-6)**
+**[우아한 테크코스 1주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-baseball-6)**
 
 # 구현 과정
 
@@ -91,4 +91,4 @@ Controller 가 Model-View를 중재한다.
 요구사항에 따라 InputView.java 에서 사용된 `amp.nextstep.edu.missionutils.Console.readLine()` 함수에 대한 분석은 [이전 포스팅](https://hye807n.github.io/review/woowacourse-precourse-6-java-baseball-3.html)에서 다루었다.
 </br>
 
-### 1. view/OutputView.java, view/InputView.java
+### 2. Random

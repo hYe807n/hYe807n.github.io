@@ -13,7 +13,7 @@ future: true
 * this unordered seed list will be replaced by the toc
 {:toc}
 
-**[우아한 테크코스 1주차 미션 숫자 야구 게임 GitHub](https://github.com/woowacourse-precourse/java-baseball-6)**
+**[우아한 테크코스 1주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-baseball-6)**
 
 # 설계? 구현?
 프로그램을 구현하기에 앞서, 프로그램 요구사항을 먼저 정확히 파악하기 위해 정리하고 기능 사항을 설계한 후에 구현 단계로 넘어가는 것이 효율적이라는 판단이 들었다. 이 전에 작은 프로젝트를 진행했을 때에는 무턱대고 구현부터 시작해서 수정하는 것에 가장 큰 시간을 소모했던 나의 과거가 생각나며 굉장히 비효율적이였구나 생각이 들었다. 규모가 큰 프로젝트일 수록 구현하기에 앞서 설계가 탄탄해야 중간에 수정하는 과정에서 시간 낭비를 하지 않겠구나..
