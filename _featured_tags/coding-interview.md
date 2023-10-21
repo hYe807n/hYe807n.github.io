@@ -1,10 +1,10 @@
 ---
 layout: tag-list
 type: tag
-title: Coding Interview
-slug: coding-interview
-category: devlog
+title: Woowacourse Precourse 6
+slug: woowacourse-precourse
+category: review
 sidebar: false
 description: >
-   Self-study for coding interview preparation.
+   Woowacourse precourse self-learning record.
 ---

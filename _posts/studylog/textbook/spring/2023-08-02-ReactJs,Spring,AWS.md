@@ -42,6 +42,7 @@ JSON은 텍스트 문자열을 통해 오브젝트를 표현한다고 했다. A�
 <u>JSON은 다음과 같이 key-value 형태로 직렬화</u> 할 수 있다. 인스턴스 변수의 이름~~(ex. title)~~은 key가 되고, 변수의 값~~(ex.myTitle)~~은 value가 된다. 배열을 사용할 때는 대괄호로 요소들을 감싸주면 된다. JSON에서 사용하는 자료형은 더 많으니 궁금하면 검색해보도록 하자.
 <br/>
 <br/>
+<br/>
 
 [참고자료]<br/>
 * [JSON 기초 - 코딩의 시작, TCP School](http://www.tcpschool.com/json/json_intro_basic)  

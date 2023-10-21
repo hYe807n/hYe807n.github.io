@@ -13,6 +13,7 @@ future: true
 > * @SpringBootApplication, @ComponentScan
 > * @Component
 > * @Autowired
+> * @Bean
 
 
 <!--more-->
@@ -103,7 +104,7 @@ Enterprise Application이란 기업과 조직의 업무를 처리하는 서버�
 .<br/><br/>
 
 다시 순서를 정리해보자.
-- 1. Spring Applcation 실행함
+- 1. Spring Application 실행함
 - 2. @ComponentScan annotation을 baskPackage로 간주하여, 해당 package와 하위 package에서 @Component 요소 탐색하여 java bean에 추가함
 - 3. @Component가 필요할 때 object를 생성하고 다른 object에 의존하면 찾아서 넣어주고 @Autowired를 사용하는 경우 Spring이 object를 연결함
 - - 1. @Autowired에 연결된 Class가 @Component가 달린 class 일 경우 spring이 object를 생성함
@@ -116,7 +117,9 @@ Enterprise Application이란 기업과 조직의 업무를 처리하는 서버�
 글 쓰는 법을 알기 위해서 문법을 공부해야하고 문법을 공부하기 위해서 단어를 알아야하는데 나는 아직 익숙하지 않은 단어도 많은 단계이다보니 아직 내용이 어렵게 느껴졌던 것 같다.  main method인 DemoApplication.java를 보다가 @SpringBootApplication annotation이 붙어있는 것을 발견하고 의문이 생겨서 알아보다보니, @ComponentScan을 이해해야하고 그러다보니 @Component를 이해해야하고.. 그러다보니 하나씩 하나씩 더 보게 됐는데 점점 파고들어가다보니 이 내용들을 한 번에 다 이해하기에는 버거워서 BeanFactoryPostProcessor, BeanPostProcessor 부터는 가볍게 이해하려고 했던 것 같다. 실습을 진행하면서부터는 annotation 사용에 조금 더 익숙해질테니 그 때 필요하다면 다시 봐도 괜찮을 것 같다.
 
 
-
+<br/>
+<br/>
+<br/>
 [참고자료]<br/>  
 * [BeanPostProcessor vs BeanFactoryPostProcessormaketheworldwise·2022년 4월 10일](https://velog.io/@maketheworldwise/BeanPostProcessor-vs-BeanFactoryPostProcessor)
 * [spring[5] ComponentScan과 Component](https://ililil9482.tistory.com/127)
