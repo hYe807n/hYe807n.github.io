@@ -18,6 +18,7 @@ future: true
 **[우아한 테크코스 1주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-baseball-6)**
 
 # 프로그래밍 요구 사항 - 제공 API 사용
+***
 ![프로그래밍 요구사항](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/94b38136-c470-4f45-bff8-e1481c8eda6c)
 
 <br/>
@@ -29,7 +30,7 @@ future: true
 <br/>
 
 ## 1. camp.nextstep.edu.missionutils.Console
-### readLine()
+***
 ```java
 package camp.nextstep.edu.missionutils;
 
@@ -60,6 +61,7 @@ public class Console {
     }
 }
 ```
+### `readLine()`
 
 평소에 입력 기능을 위해 자주 사용하던 Scanner를 왜 다시 감싸줬을까? 뭐가 달라졌을까? 를 고민하다가 그럼 *요구사항대로 하지 않았을 때 어떤 상황을 방지하려고 이 요구사항을 추가했을까?* 를 생각해보았다.
 결론은 **Scanner 개체 생성 남발을 방지하고 싱글톤 패턴을 위해서** 라고 판단했다.
@@ -67,7 +69,7 @@ public class Console {
 <br/>
 
 ## 2. camp.nextstep.edu.missionutils.Randoms
-### pickNumberInRange()
+***
 ```java
 package camp.nextstep.edu.missionutils;
 
@@ -141,6 +143,8 @@ public class Randoms {
     }
 }
 ```
+
+### `pickNumberInRange()`
 
 먼저 내가 사용해야 할 `pickNumberInRange()` 는 이름에서도 알 수 있듯이 범위 내의 랜덤한 수를 선택한다는 것을 알 수 있다. 코드 내부를 보면 `validateRange()`로 매개변수를 다시 전달하는 것을 알 수 있는데, 이 함수는 **지정한 범위가 유효한 지를 검사하는 함수**인 것을 알 수 있다.
 그리고 다시 돌아가서 `defaultRandom.nextInt()`함수를 사용한다. 이 함수는 `java.util.concurrent.ThreadLocalRandom`를 타고 들어가보면 **시드 값 초기화를 할 필요 없이 정수인 난수를 생성**한다.
