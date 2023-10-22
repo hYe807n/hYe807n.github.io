@@ -194,3 +194,4 @@ public class ComputerModel {
 * [[JAVA]자바 문자열 비교 equals(), == 사용법 및 차이점](https://lnsideout.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B9%84%EA%B5%90-equals-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 * [Java의 문자열에서 특정 문자 제거](https://www.techiedelight.com/ko/remove-certain-characters-from-string-java/)
 * [How can I convert a char to CharSequence? [duplicate]](https://stackoverflow.com/questions/56056419/how-can-i-convert-a-char-to-charsequence)
+* [[Java] try-catch 문의 주의사항 (feat. try-with-resource)](https://parkadd.tistory.com/66)
