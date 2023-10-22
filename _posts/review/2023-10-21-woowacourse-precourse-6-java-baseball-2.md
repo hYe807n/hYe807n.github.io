@@ -137,8 +137,8 @@ public class RandomNumber {
 <br/>
 
 View를 통해 Controller 가 사용할 기능들을 만들어주었다면, Model을 구현하기에 앞서 **Model의 랜덤한 정수 3 개로 구성된 List 형식의 Field 값을 반환해 줄 RandomNumber class를 구현**하였다.
-<br/>
 
+<br/>
 
 ### 3. model/ScoreState.java
 <details>
@@ -157,7 +157,8 @@ public enum ScoreState {
 </details>
 
 `ComputerModel.java` 를 구현하다가 scoreMap의 key 값을 기존에는 `"strikeScore"`, `"ballScore"` 과 같은 string 형태로 접근했었는데, 이는 **가독성 과 싱글톤 형태를 보장하여 안정성을 높이기 위해 enum으로 변경**하였다.
-</br>
+
+<br/>
 
 ### 4. model/ComputerModel.java
 
@@ -265,6 +266,8 @@ player 가 `computerNumber` 를 맞춘 후, 재시작/종료를 선택할 때 �
 
 player의 입력이 잘못되었을 경우, **요구 사항인 IllegalArgumentException** 를 발생시켰다.
 
+<br/>
+
 ### 6. controller/StartController.java
 
 <details>
@@ -363,6 +366,7 @@ player가 추측한 값의 결과가 낫싱/3 스트라이크 가 아닌 경우�
 <br/>
 
 Controller는 Model과 View와는 다르게 두 개체의 정보를 알 수 있으므로 ComputerModel을 field값으로 가지고 있다. 게임 재시작/종료에 대한 입력값을 구분하기 위하여 재시작 입력값을 상수로 선언하였다.
+
 <br/>
 
 ### 7. Application.java
@@ -402,6 +406,7 @@ public class Application {
 
 controller 객체를 생성하여 게임 시작을 제어한다. 또한 `gameState` 를 true로 초기화하여 현재 게임 진행 상태를 구별하고 `restart` 를 통해 player 가 정답을 맞춘 후에 재시작/종료 선택지 중 입력한 값을 구분한다.
 만약 종료한다면 현재 게임 진행 상태와 재시작 여부를 false로 바꾸고, 재시작한다면 게임 진행 상태를 바꾸지 않은 채(true) `computerNumber` 를 초기화하는 함수를 실행한다.
+
 <br/>
 <br/>
 <br/>
@@ -416,6 +421,7 @@ C와 C# 에서만 사용해보아서 java 에서 enum은 존재 여부만 알고
 ### 상수 사용
 가독성과 속도 측면에서 원시 데이터를 사용하는 것을 지양하면서 되도록 상수로 선언하여서 사용하였다.
 ### commite message
+
 <details>
 <summary>commit log</summary>
 <div>
@@ -429,6 +435,7 @@ commit message 를 명확하고 깔끔하게 남기기 위해 `fix:`, `feat:` �
 <br/>
 <br/>
 <br/>
+
 [참고자료]<br/>
 
 * [[JAVA]자바 문자열 비교 equals(), == 사용법 및 차이점](https://lnsideout.tistory.com/entry/JAVA%EC%9E%90%EB%B0%94-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%B9%84%EA%B5%90-equals-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%B0%8F-%EC%B0%A8%EC%9D%B4%EC%A0%90)
