@@ -128,9 +128,9 @@ public class RandomNumber {
     }
 }
 
-
 ```
 </details>
+<br/>
 
 * `randomNumberGenerator()`
 요구사항에 따라 `RandomNumber.java` 에서 사용된 `camp.nextstep.edu.missionutils.Randoms.randomNumberGenerator()` 함수에 대한 분석은 [이전 포스팅](https://hye807n.github.io/review/woowacourse-precourse-6-java-baseball-3.html)에서 다루었다. **`randomNumberGenerator()` 역시 `RandomNumber` class의 필드값이 없이 method 기능만 사용되므로 static으로 정의**하였다.
@@ -139,6 +139,7 @@ public class RandomNumber {
 View를 통해 Controller 가 사용할 기능들을 만들어주었다면, Model을 구현하기에 앞서 **Model의 랜덤한 정수 3 개로 구성된 List 형식의 Field 값을 반환해 줄 RandomNumber class를 구현**하였다.
 
 <br/>
+
 
 ### 3. model/ScoreState.java
 <details>
@@ -155,6 +156,7 @@ public enum ScoreState {
 
 ```
 </details>
+<br/>
 
 `ComputerModel.java` 를 구현하다가 scoreMap의 key 값을 기존에는 `"strikeScore"`, `"ballScore"` 과 같은 string 형태로 접근했었는데, 이는 **가독성 과 싱글톤 형태를 보장하여 안정성을 높이기 위해 enum으로 변경**하였다.
 
@@ -207,6 +209,7 @@ public class ComputerModel {
 
 ```
 </details>
+<br/>
 
 *  `ComputerModel(List<Integer> computerNumber)`
 우선 Computer 개체가 가지고 있어야할 random한 numberList를 생성자를 통해 set해주었다. ~~(setter, getter 사용을 지양해야 하므로 생성자를 사용했다.)~~ 
@@ -344,6 +347,7 @@ public class StateController {
 
 ```
 </details>
+<br/>
 
 * `gameStart()`
 새 게임이 시작될 때마다 실행되는 함수로, `computerModel` 의 임의의 숫자 3 개를 초기화 하기 위한 함수이다.
@@ -403,6 +407,7 @@ public class Application {
 
 ```
 </details>
+<br/>
 
 controller 객체를 생성하여 게임 시작을 제어한다. 또한 `gameState` 를 true로 초기화하여 현재 게임 진행 상태를 구별하고 `restart` 를 통해 player 가 정답을 맞춘 후에 재시작/종료 선택지 중 입력한 값을 구분한다.
 만약 종료한다면 현재 게임 진행 상태와 재시작 여부를 false로 바꾸고, 재시작한다면 게임 진행 상태를 바꾸지 않은 채(true) `computerNumber` 를 초기화하는 함수를 실행한다.
@@ -429,6 +434,7 @@ C와 C# 에서만 사용해보아서 java 에서 enum은 존재 여부만 알고
 </div>
 
 </details>
+<br/>
 
 commit message 를 명확하고 깔끔하게 남기기 위해 `fix:`, `feat:` 등의 상황에 맞는 양식을 찾아보고, 구**현 기능 목록을 하나씩 구현할 때마다 commit**을 남겼다. **push는 하나의 class의 구현이 얼추 끝났을 때마다 실행했**다. 처음에는 익숙하지 않았지만 시간이 지날수록 능숙해지고 진행 사항을 확인하기에도 깔끔해서 보기 좋다는 것을 깨닫고, 미션 진행 과정 뿐만 아니라 블로그 포스팅과 같이 혼자 작업을 할 때에도 commit 양식을 사용하는 것을 지향하게 되었다. 또한 목록을 하나씩 체크해나갈 때마다 느껴지는 성취감도 있었다.
 
