@@ -59,6 +59,7 @@ public class OutputView {
 }
 ```
 </details>
+
 <details>
     <summary>InputView.java</summary>
 
@@ -103,6 +104,7 @@ Controller 가 Model-View를 중재한다.
 <br/>
 
 ### 2. random/RandomNumber.java
+
 <details>
     <summary>RandomNumber.java</summary>
     
@@ -129,7 +131,9 @@ public class RandomNumber {
 }
 
 ```
+
 </details>
+
 <br/>
 
 * `randomNumberGenerator()`
