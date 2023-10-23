@@ -21,8 +21,6 @@ future: true
 ## 코드 구현 순서
 ***
 ### 1. view/OutputView.java, view/InputView.java
-<details>
-    <summary>OutputView.java</summary>
 
 ```java
 package baseball.view;
@@ -58,10 +56,6 @@ public class OutputView {
 
 }
 ```
-</details>
-
-<details>
-    <summary>InputView.java</summary>
 
 ```java
 package baseball.view;
@@ -83,8 +77,6 @@ public class InputView {
 
 
 ```
-</details>
-</br>
 
 * `printBallScore(int ballScore)`
 볼 점수를 출력하는 `printBallScore()` 만 `println()` 이 아닌 `print()` 를 사용했는데, 이는 출력 요구사항에서 볼 점수와 스트라이크 점수를 한 줄에 나란히 출력하기 위해 <u>줄 바꿈을 하지 않는 출력문</u>을 사용하기 위함이다.
@@ -104,8 +96,28 @@ Controller 가 Model-View를 중재한다.
 <br/>
 
 ### 2. random/RandomNumber.java
+```java
+package baseball.random;
 
+import camp.nextstep.edu.missionutils.Randoms;
+import java.util.ArrayList;
+import java.util.List;
 
+public class RandomNumber {
+
+    public static List<Integer> randomNumberGenerator() {
+        List<Integer> randomNumberList = new ArrayList<>();
+
+        while (randomNumberList.size() < 3) {
+            int randomNumber = Randoms.pickNumberInRange(1, 9);
+            if (!randomNumberList.contains(randomNumber)) {
+                randomNumberList.add(randomNumber);
+            }
+        }
+        return randomNumberList;
+    }
+}
+```
 
 <br/>
 
@@ -119,9 +131,7 @@ View를 통해 Controller 가 사용할 기능들을 만들어주었다면, Mode
 
 
 ### 3. model/ScoreState.java
-<details>
-    <summary>ComputerModel.java</summary>
-    
+   
 ```java
 package baseball.model;
 
@@ -132,8 +142,6 @@ public enum ScoreState {
 }
 
 ```
-</details>
-<br/>
 
 `ComputerModel.java` 를 구현하다가 scoreMap의 key 값을 기존에는 `"strikeScore"`, `"ballScore"` 과 같은 string 형태로 접근했었는데, 이는 **가독성 과 싱글톤 형태를 보장하여 안정성을 높이기 위해 enum으로 변경**하였다.
 
@@ -141,9 +149,6 @@ public enum ScoreState {
 
 ### 4. model/ComputerModel.java
 
-<details>
-    <summary>ComputerModel.java</summary>
-    
 ```java
 package baseball.model;
 
@@ -185,7 +190,7 @@ public class ComputerModel {
 }
 
 ```
-</details>
+
 <br/>
 
 *  `ComputerModel(List<Integer> computerNumber)`
@@ -210,9 +215,6 @@ scoreMap을 사용하기 전에 key값과 value를 초기화하기 위해 만든
 <br/>
 
 ### 5. exception/ExceptionCheck.java
-
-<details>
-    <summary>ComputerModel.java</summary>
     
 ```java
 package baseball.exception;
@@ -235,7 +237,6 @@ public class ExceptionCheck {
 }
 
 ```
-</details>
 
 * `playerInputCheck(String inputNumber)`
 player 가 `computerNumber` 를 추측하기 위해 입력한 값이 3 자리가 맞는지 확인하는 함수이다. 
@@ -249,10 +250,7 @@ player의 입력이 잘못되었을 경우, **요구 사항인 IllegalArgumentEx
 <br/>
 
 ### 6. controller/StartController.java
-
-<details>
-    <summary>ComputerModel.java</summary>
-    
+ 
 ```java
 package baseball.controller;
 
@@ -323,7 +321,6 @@ public class StateController {
 }
 
 ```
-</details>
 <br/>
 
 * `gameStart()`
@@ -351,9 +348,7 @@ Controller는 Model과 View와는 다르게 두 개체의 정보를 알 수 있�
 <br/>
 
 ### 7. Application.java
-<details>
-    <summary>ComputerModel.java</summary>
-    
+
 ```java
 package baseball;
 
@@ -383,7 +378,6 @@ public class Application {
 }
 
 ```
-</details>
 <br/>
 
 controller 객체를 생성하여 게임 시작을 제어한다. 또한 `gameState` 를 true로 초기화하여 현재 게임 진행 상태를 구별하고 `restart` 를 통해 player 가 정답을 맞춘 후에 재시작/종료 선택지 중 입력한 값을 구분한다.
