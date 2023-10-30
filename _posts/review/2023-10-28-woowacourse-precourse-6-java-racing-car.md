@@ -15,7 +15,7 @@ future: true
 
 
 
-**[우아한 테크코스 2주차 미션 숫자 야구 게임 GitHub Link](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)**
+**[우아한 테크코스 2주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
 
 # 과제 진행 요구 사항 - git commit 컨벤션
 ***
@@ -95,6 +95,9 @@ commit 을 통해 **변경된 사항의 유형**을 기록한다.
 * 양에 구애받지 않고 **최대한 상세히** 작성
 * 어떻게 변경했는지 보다 **무엇을 변경했는지 또는 왜 변경했는지** 작성
 
+<br/>
+<br/>
+
 ## footer
 생략 가능하고 issue tracker id 를 작성할 때 사용한다. 
 
@@ -106,6 +109,15 @@ commit 을 통해 **변경된 사항의 유형**을 기록한다.
 > * Resolves: 이슈를 해결했을 때 사용
 > * Ref: 참고할 이슈가 있을 때 사용
 > * Related to: 해당 커밋에 관련된 이슈번호 (아직 해결되지 않은 경우)
+
+<br/>
+<br/>
+
+# commit emoji
+commit 컨벤션을 지켜야하는 이유는 협업할 때나, 혼자 작업한 것을 확인할 때에도 가독성을 높이기 위해서이다. 이를 위해 commit message에 emoji를 사용하면 도움이 된다고 한다. 하지만 이번 미션에서는 기본적인 git commit 양식 지키는 것에 충실하고 emoji는 다음에 사용해볼 예정이다.
+
+
+
 
 
 <br/>
@@ -119,3 +131,4 @@ commit 을 통해 **변경된 사항의 유형**을 기록한다.
 * [[Git] Commit Message Convension (협업을 위한 git 커밋컨벤션)](https://velog.io/@msung99/Git-Commit-Message-Convension)
 * [Git 커밋 메세지 컨벤션은 왜 중요할까?](https://yozm.wishket.com/magazine/detail/1974/)
 * [[Git/Github] Commit Convention이란?](https://kdjun97.github.io/git-github/commit-convention/)
+* [Gitmoji 사용하기](https://treasurebear.tistory.com/70)
