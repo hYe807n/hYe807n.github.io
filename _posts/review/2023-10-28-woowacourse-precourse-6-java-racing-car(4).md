@@ -1,5 +1,5 @@
 ---
-title: "[우아한 테크코스-프리코스 2주차] 자동차 경주 게임 리팩토링"
+title: "[우아한 테크코스-프리코스 2주차] 자동차 경주 게임 최종 구현(리팩토링 후)"
 layout: post
 subtitle: "woowacourse precourse 6 - 2nd week mission"
 category: review
