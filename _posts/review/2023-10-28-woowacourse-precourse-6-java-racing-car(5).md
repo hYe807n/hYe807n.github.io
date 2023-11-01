@@ -15,7 +15,8 @@ future: true
 
 
 
-**[우아한 테크코스 2주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
+**[우아한 테크코스 2주차 미션 자동차 경주 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
+
 
 # Collections, Stream()
 ***

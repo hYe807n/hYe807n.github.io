@@ -14,7 +14,7 @@ future: true
 {:toc}
 
 
-**[우아한 테크코스 2주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
+**[우아한 테크코스 2주차 미션 자동차 경주 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
 
 # 2 차 미션을 시작하기에 앞서...
 ***
@@ -24,7 +24,7 @@ future: true
 <U>이번 포스팅은 리팩토링 전 코드를 리뷰한 것이다.</U>
 <br/>
 
-**[자동차 경주 게임 최종 구현(리팩토링 후) 보러가기](https://hye807n.github.io/review/woowacourse-precourse-6-java-racing-car(4).html)**
+**[자동차 경주 게임 최종 구현(리팩토링 후)](https://hye807n.github.io/review/woowacourse-precourse-6-java-racing-car(4).html)**
 
 <br/>
 <br/>
