@@ -20,7 +20,7 @@ future: true
 # 리팩토링?
 ***
 *본 포스팅은 우아한 테크코스 2주차 미션 자동차 경주 게임 1차 구현 코드를 기반으로 리팩토링 과정을 적었으므로 1차 구현 코드 리뷰와 겹치는 내용이 많아서 별도로 코드를 리뷰하지 않았다. 코드 이해가 어렵다면 1차 코드를 먼저 보고 오자 !*
-[[우아한 테크코스-프리코스 2주차] 자동차 경주 게임 구현(리팩토링 전) 포스트 보러가기](https://hye807n.github.io/review/woowacourse-precourse-6-java-racing-car(3).html)
+[자동차 경주 게임 구현(리팩토링 전)](https://hye807n.github.io/review/woowacourse-precourse-6-java-racing-car(3).html)
 
 [자동차 경주 게임 최종 구현 코드 GitHub Link](https://github.com/hYe807n/java-racingcar-6/tree/hYe807n)
 <br/>
