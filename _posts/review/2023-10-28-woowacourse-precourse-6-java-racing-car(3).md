@@ -16,7 +16,7 @@ future: true
 
 **[우아한 테크코스 2주차 미션 숫자 야구 게임 GitHub Link](https://github.com/woowacourse-precourse/java-racingcar-6)**
 
-# 1 차 미션 후
+# 2 차 미션을 시작하기에 앞서...
 ***
 1 차 자동차 미션을 제출하고, 2 차 미션을 시작하기에 앞서 메일로 1 차 미션 공통 피드백이 날아왔다. 또한 2 차 미션에서는 추가된 요구사항과 지켜야할 컨벤션(commit)이 생겼다.
 클린 코드, 객체 지향성을 보장한 코드, 가독성이 좋고, 깔끔한 코드.. 가 중요하다는 것은 익히 들어왔지만 이를 의식적으로 지키기 위해 노력한 코드와 그렇지 않은 코드를 직접 비교하고 싶었다.
@@ -97,7 +97,7 @@ public class OutputView {
 ```
 <br/>
 
-* `Console.readLine()`
+* `Console.readLine()`  
 요구사항에 따라 `InputView.java` 에서 사용된 `amp.nextstep.edu.missionutils.Console.readLine()` 함수에 대한 분석은 [이전 포스팅](https://hye807n.github.io/review/woowacourse-precourse-6-java-baseball-3.html)에서 다루었다.
 <br/>
 * `printWinner(List<CarModel> winnerCars)`

@@ -252,3 +252,4 @@ SmallCar smallCar = new SmallCar();
 * [일급 컬렉션 (First Class Collection) 을 사용하자](https://dev-cool.tistory.com/28)
 * [일급 컬렉션을 사용하는 이유](https://tecoble.techcourse.co.kr/post/2020-05-08-First-Class-Collection/)
 * [[Java] First Class Collection(일급 컬렉션)](https://jackjeong.tistory.com/entry/Java-First-Class-Collection%EC%9D%BC%EA%B8%89-%EC%BB%AC%EB%A0%89%EC%85%98)
+* [First Class Collection(일급 컬렉션)](https://jandari91.github.io/posts/FirstClassCollection/)
