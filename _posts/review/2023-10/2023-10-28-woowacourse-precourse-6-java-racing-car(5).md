@@ -2,7 +2,7 @@
 title: "[우아한 테크코스-프리코스 2주차] Collections, Stream 적용하기"
 layout: post
 subtitle: "woowacourse precourse 6 - 2nd week mission"
-category: review devlog
+category: review
 tags: java woowacourse-precourse-6
 published: true
 future: true
