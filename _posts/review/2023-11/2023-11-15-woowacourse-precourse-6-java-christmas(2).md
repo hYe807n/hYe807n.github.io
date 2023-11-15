@@ -23,10 +23,12 @@ future: true
 
 [앞선 포스트에서 함수의 중복을 줄이기 위해서 단위테스트에서 @ParameterizedTest](https://hye807n.github.io/review/woowacourse-precourse-6-java-christmas(3).html)를 사용했다.
 하지만 단위테스트 과정에서 `ParameterResolutionException`가 발생했다.
-`@ParameterizedTest`는 Test 객체로서 동작하므로  `@Test` 와 `@ParameterizedTest` 가 동시에 사용되어서 발생하는 것이다. `@Test` 를 제거해주면 오류가 사라진다.
+**`@ParameterizedTest`는 Test 객체로서 동작**하므로  `@Test` 와 `@ParameterizedTest` 가 동시에 사용되어서 발생하는 것이다. 
+`@Test` 를 제거해주면 오류가 사라진다.
 <br/>
 
 ![image](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/66c2e21b-e192-458b-9ec3-f8cfda0e5b12)
+<br/>
 <br/>
 <br/>
 

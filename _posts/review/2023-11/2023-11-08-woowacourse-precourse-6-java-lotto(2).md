@@ -17,7 +17,7 @@ future: true
 
 **[우아한 테크코스 3주차 미션 로또 GitHub Link](https://github.com/woowacourse-precourse/java-lotto-6)**
 
-# 과제 진행 요구 사항 - Enum 사용
+# 과제 진행 요구 사항 - 단위테스트
 ***
 ![과제 진행 요구사항](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/5214c181-4c3b-46d1-90fb-71d3383764e9)
 
