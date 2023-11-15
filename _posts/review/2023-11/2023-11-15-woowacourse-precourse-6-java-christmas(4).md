@@ -70,7 +70,8 @@ future: true
 ## model
 ***
 ### Date
-![image](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/b293d91c-c21a-4d9e-a96c-b44eaf44eef1)
+![image](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/399368ba-bf81-48fb-862b-bc7510f4ab06)
+
 
 * `publid Date(String number)`: Date 생성자로, String 형태로 입력받은 number를 field 값으로 선언하기 전에 validation을 진행한다.
     * `number.matches()`: 입력받은 숫자의 형식을 검증한다. 인자로 사용된 정규표현식은 [이전 포스팅을 참고](https://hye807n.github.io/review/woowacourse-precourse-6-java-christmas.html)하면 도움이 될 것 같다.
@@ -106,7 +107,6 @@ future: true
 
 ### Orders
 ![image](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/0c51c53a-ebb4-42e1-b1ac-ad9fcd32b89c)
-![image](https://github.com/hYe807n/hYe807n.github.io/assets/79916066/64e202eb-c422-43b8-a498-baa9c5e5bcf5)
 
 * `public Orders(String orders)`: 입력받은 주문 내역들의 형식을 확인하고, 각각 메뉴 이름과 개수를 검증한 후에 order 들의 객체를 담은 orders 리스트를 선언한다.
 * `Map<Menus, Integer> menus()`: 주문 내역을 출력하기 위해 메뉴 이름, 개수를 담은 객체, 개수의 총합을 반환한다.
