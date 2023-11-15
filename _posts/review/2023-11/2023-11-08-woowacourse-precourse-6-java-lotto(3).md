@@ -1,5 +1,5 @@
 ---
-title: "[우아한 테크코스-프리코스 3주차] for문, streamAPI forEach() 언제 사용해야할까?"
+title: "[우아한 테크코스-프리코스 3주차] for문, streamAPI forEach() 성능 차이"
 layout: post
 subtitle: "woowacourse precourse 6 - 3rd week mission"
 category: review
