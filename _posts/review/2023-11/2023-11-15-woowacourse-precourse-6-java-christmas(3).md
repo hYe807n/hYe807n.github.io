@@ -1,5 +1,5 @@
 ---
-title: "[우아한 테크코스-프리코스 4주차] 단위 테스트 코드 리팩토링"
+title: "[우아한 테크코스-프리코스 4주차] 단위 테스트 코드 리팩토링 @Parameterized @CsvSource @ValueSource"
 layout: post
 subtitle: "woowacourse precourse 6 - 4th week mission"
 category: review
