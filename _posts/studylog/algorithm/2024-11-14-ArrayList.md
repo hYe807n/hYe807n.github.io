@@ -39,9 +39,11 @@ future: true
 <br/>
 
 ### ArrayList vs Array
->   ArrayList 삽입 삭제
+>   - ArrayList 삽입 삭제
 > ![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
 > ![ArrayList 삭제](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F724e43f2-01fe-4bf5-93f8-d0970f526781%2Fimage.png)
+
+
 - **장점**
     -  **기능적 편리함** : `ArrayList` 는 `add()`, `remove()`처럼 `Array` 보다 더 다양하고 편리한 기능을 더 많이 제공한다. 
     - **가변성** : `ArrayList` 는 `Array` 와 비교하여 크기 조정과 추가/삭제가 자유롭다. 다만, *특정 데이터를 찾는 기능은 `Array` 보다 성능이 떨어질 수도 있다.*
@@ -85,16 +87,13 @@ future: true
 ### 결론
 배열과 마찬가지로 **요소의 수정 및 삭제가 빈번하지 않지만 순차적인 접근이 가능하거나 조회할 작업이 많을 때에 유용**하다. 또한 다양한 기능이 구현되어있어 편리하고, 정적인 배열이 필요할 때 사용되지만 *데이터 요소의 수정이 적거나, 크기가 정적이라면 `Array`를 사용하는 것이 유리하다.*
 
-.<br/>
-
 <br/>
 <br/>
 <br/>
 
 [참고자료]<br/> 
 -   [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28)
--	[[자료구조 | Java] 리스트(List) - ArrayList
-](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
+-	[[자료구조 | Java] 리스트(List) - ArrayList](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
 -	[ArrayList 자료구조 실전 구현 강의 (JAVA)](https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98)
 -	[자바 ArrayList 구조 & 사용법 정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95)
 -	[[JAVA]ArrayList의 사용법과 주요 메서드의 시간복잡도](https://chunsubyeong.tistory.com/81)
