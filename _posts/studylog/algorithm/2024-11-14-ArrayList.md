@@ -1,5 +1,5 @@
 ---
-title: "자료구조 ArrayList 동적 배열"
+title: "코딩테스트 알고리즘 자료구조 ArrayList 동적 배열 정리"
 layout: post
 subtitle: 자료구조
 category: studylog
@@ -39,10 +39,10 @@ future: true
 <br/>
 
 ### ArrayList vs Array
->   - ArrayList 삽입 삭제
-> ![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
-> ![ArrayList 삭제](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F724e43f2-01fe-4bf5-93f8-d0970f526781%2Fimage.png)
 
+![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
+![ArrayList 삭제](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F724e43f2-01fe-4bf5-93f8-d0970f526781%2Fimage.png)
+>   - ArrayList 삽입 삭제
 
 - **장점**
     -  **기능적 편리함** : `ArrayList` 는 `add()`, `remove()`처럼 `Array` 보다 더 다양하고 편리한 기능을 더 많이 제공한다. 
