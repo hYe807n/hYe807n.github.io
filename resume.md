@@ -6,7 +6,7 @@ description: >
   Hi, I'm HaYeon Kim, backend developer an AI student at Yongin University.
 hide_description: true
 sidebar: true
-order: 5
+order: 99
 left_column:
  - work
  - education

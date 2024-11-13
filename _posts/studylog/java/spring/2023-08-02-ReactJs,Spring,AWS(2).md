@@ -6,8 +6,6 @@ category: studylog
 tags: java spring
 published: true
 future: true
-related_posts:
-  - _posts/textbook/spring/2023-08-02-ReactJs,Spring,AWS(1).md
 ---
 
 > **이 장에서 배울 내용**
@@ -22,7 +20,7 @@ related_posts:
 {:toc}
 
 # Server 
-> : 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
+> 네크워크를 통해 클라이언트에게 정보와 서비스를 제공하는 프로그램
 
 서버는 <u>네트워크 operation을 수행하는 것</u>으로 클라이언트가 소켓에 연결을 하면, 요청을 받아와 수행하고 응답을 작성해 전달한다. File Transfer Protocol을 사용하면 FTP server, HyperText Transfer Protocol을 사용하면 HTTP 서버가 되는 것이다. (*여기서 FTP는 파일 전송을 위한 프로토콜이고, HyperText Transfer Protocol은 사용자와 WebServer 사이의 문서 전송을 위한 통신 규약을 말한다.*)  
 

@@ -27,15 +27,11 @@ timezone:              Asia/Seoul
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:  >
-  Until I can introduce myself,
-  "A developer"
-
+  !
 
 # A shorter description for the sidebar.
 tagline:  >
-  Until I can introduce myself,
-  "A developer"
-  Yongin University AI Faculty AI Major
+  조금씩 꾸준히 끄적이자
 
 # A list of keywords for your blog
 keywords:              ["Development", "JAVA", "Study"]
@@ -483,6 +479,7 @@ jekyll_compose:
 # jekyll-feed settings
 feed:
   categories:
+    - all
     - devlog
     - review
     - studylog

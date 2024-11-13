@@ -3,7 +3,7 @@ layout: tag-list
 type: tag
 title: Spring
 slug: spring
-category: textbook
+category: studylog
 sidebar: false
 description: >
    Spring study using java

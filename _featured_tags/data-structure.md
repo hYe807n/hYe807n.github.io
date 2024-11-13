@@ -3,7 +3,7 @@ layout: tag-list
 type: tag
 title: Data Structure
 slug: data-structure
-category: devlog
+category: studylog
 sidebar: false
 description: >
    Data Structure Implementations

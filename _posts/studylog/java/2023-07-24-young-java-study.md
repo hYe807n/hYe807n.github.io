@@ -6,8 +6,6 @@ category: studylog
 tags: java
 published: true
 future: true
-# related_posts:
-#   - _posts/textbook/procpp/2021-08-06-professional-cpp-toc.md
 ---
 
 > **이 장에서 배울 내용**

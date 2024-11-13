@@ -1,10 +1,10 @@
 ---
 layout: list
 type: category
-title: Study Log
-slug: studylog
+title: All
+slug: all
 sidebar: true
-order: 4
+order: 2
 description: >
-  Log study results
+  All posts
 ---

@@ -3,7 +3,7 @@ title: "[우아한 테크코스-프리코스 2주차] git commit 컨벤션"
 layout: post
 subtitle: "woowacourse precourse 6 - 2nd week mission"
 category: review
-tags: java woowacourse-precourse-6
+tags: java woowacourse-precourse-6 git
 published: true
 future: true
 ---
