@@ -39,23 +39,6 @@ future: true
 <br/>
 <br/>
 
-## ArrayList vs Array
-***
-> * ArrayList 삽입 삭제
-> ![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
-> ![ArrayList 삭제](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F724e43f2-01fe-4bf5-93f8-d0970f526781%2Fimage.png)
-
-- **장점**
-    -  **기능적 편리함** : `ArrayList` 는 `add()`, `remove()`처럼 `Array` 보다 더 다양하고 편리한 기능을 더 많이 제공한다. 
-    - **가변성** : `ArrayList` 는 `Array` 와 비교하여 크기 조정과 추가/삭제가 자유롭다. 다만, *특정 데이터를 찾는 기능은 `Array` 보다 성능이 떨어질 수도 있다.*
-- **단점**
-    - **속도(삭제기능)**: `ArrayList` 는 빈 공간을 허용하지 않고, `Array` 는 삭제 시 해당 공간이 빈 공간으로 남는다. 그래서 삭제 작업이 많을 경우에는 `ArrayList` 속도가 더 느리다.
-    - **주소를 통한 접근**: `Array`와 다르게 연속적으로 메모리 할당을 받지 않고, 주소로 가지고 있기 때문에 index 를 통한 접근 속도가 더 느리다.
-    - **메모리 공간 소모**: `ArrayList` 는 데이터를 객체로 다루기 때문에 적은 양의 데이터 사용 시에는 `Array` 사용이 더 유리하다.</br>
-
-<br/>
-<br/>
-
 ## ArrayList 관련 메서드
 ***
 - `add()` : 데이터 추가
@@ -73,6 +56,24 @@ future: true
 ## Array 멤버변수
 - `private int size` : 배열 크기
 - `private T[] elements` : 배열을 저장할 T 타입의 element
+  
+<br/>
+<br/>
+
+# ArrayList vs Array
+***
+> * ArrayList 삽입 삭제
+> ![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
+> ![ArrayList 삭제](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2F724e43f2-01fe-4bf5-93f8-d0970f526781%2Fimage.png)
+
+- **장점**
+    -  **기능적 편리함** : `ArrayList` 는 `add()`, `remove()`처럼 `Array` 보다 더 다양하고 편리한 기능을 더 많이 제공한다. 
+    - **가변성** : `ArrayList` 는 `Array` 와 비교하여 크기 조정과 추가/삭제가 자유롭다. 다만, *특정 데이터를 찾는 기능은 `Array` 보다 성능이 떨어질 수도 있다.*
+- **단점**
+    - **속도(삭제기능)**: `ArrayList` 는 빈 공간을 허용하지 않고, `Array` 는 삭제 시 해당 공간이 빈 공간으로 남는다. 그래서 삭제 작업이 많을 경우에는 `ArrayList` 속도가 더 느리다.
+    - **주소를 통한 접근**: `Array`와 다르게 연속적으로 메모리 할당을 받지 않고, 주소로 가지고 있기 때문에 index 를 통한 접근 속도가 더 느리다.
+    - **메모리 공간 소모**: `ArrayList` 는 데이터를 객체로 다루기 때문에 적은 양의 데이터 사용 시에는 `Array` 사용이 더 유리하다.</br>
+
 
 <br/>
 <br/>
@@ -93,9 +94,9 @@ future: true
 <br/>
 
 [참고자료]<br/> 
--   [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28)
--	[[자료구조 | Java] 리스트(List) - ArrayList](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
--	[ArrayList 자료구조 실전 구현 강의 (JAVA)](https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98)
--	[자바 ArrayList 구조 & 사용법 정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95)
--	[[JAVA]ArrayList의 사용법과 주요 메서드의 시간복잡도](https://chunsubyeong.tistory.com/81)
--	[알고리즘 기본 숙지 내용 : C++와 Java 비교를 중심으로](https://velog.io/@goaldae/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EB%B3%B8-%EC%88%99%EC%A7%80-%EB%82%B4%EC%9A%A9-C%EC%99%80-Java-%EB%B9%84%EA%B5%90%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C)
+- [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28)
+- [ [자료구조 | Java] 리스트(List) - ArrayList ](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
+- [ArrayList 자료구조 실전 구현 강의 (JAVA)](https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98)
+- [자바 ArrayList 구조 & 사용법 정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95)
+- [[JAVA]ArrayList의 사용법과 주요 메서드의 시간복잡도](https://chunsubyeong.tistory.com/81)
+- [알고리즘 기본 숙지 내용 : C++와 Java 비교를 중심으로](https://velog.io/@goaldae/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EB%B3%B8-%EC%88%99%EC%A7%80-%EB%82%B4%EC%9A%A9-C%EC%99%80-Java-%EB%B9%84%EA%B5%90%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C)
