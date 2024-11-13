@@ -33,13 +33,13 @@ future: true
 <br/>
 <br/>
 
-### 시간 복잡도
+## 시간 복잡도
 데이터를 마지막에 삽입하거나, `index`를 데이터 통한 접근 시 시간 복잡도는 **O(1)**이다. 하지만 `Array` 와 마찬가지로 *중간에 데이터를 삽입하거나 삭제하는 작업은 역시 뒤의 데이터들을 차례대로 연결해주어야 하기때문에 **O(N)** *이다.
 
 <br/>
 <br/>
 
-### ArrayList vs Array
+## ArrayList vs Array
 ***
 > * ArrayList 삽입 삭제
 > ![ArrayList 삽입](https://velog.velcdn.com/images%2Fnnnyeong%2Fpost%2Ff16f66d9-4687-4421-8269-26748f45d6b7%2Fimage.png)
@@ -52,13 +52,11 @@ future: true
     - **속도(삭제기능)**: `ArrayList` 는 빈 공간을 허용하지 않고, `Array` 는 삭제 시 해당 공간이 빈 공간으로 남는다. 그래서 삭제 작업이 많을 경우에는 `ArrayList` 속도가 더 느리다.
     - **주소를 통한 접근**: `Array`와 다르게 연속적으로 메모리 할당을 받지 않고, 주소로 가지고 있기 때문에 index 를 통한 접근 속도가 더 느리다.
     - **메모리 공간 소모**: `ArrayList` 는 데이터를 객체로 다루기 때문에 적은 양의 데이터 사용 시에는 `Array` 사용이 더 유리하다.</br>
-####
-
 
 <br/>
 <br/>
 
-### ArrayList 관련 메서드
+## ArrayList 관련 메서드
 ***
 - `add()` : 데이터 추가
 - `remove()` : 데이터 삭제
@@ -72,7 +70,7 @@ future: true
 
 <br/>
 
-### 멤버변수
+## Array 멤버변수
 - `private int size` : 배열 크기
 - `private T[] elements` : 배열을 저장할 T 타입의 element
 
