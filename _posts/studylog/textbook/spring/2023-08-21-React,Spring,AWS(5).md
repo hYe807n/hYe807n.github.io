@@ -120,6 +120,7 @@ Enterprise Application이란 기업과 조직의 업무를 처리하는 서버�
 <br/>
 <br/>
 <br/>
+
 [참고자료]<br/>  
 * [BeanPostProcessor vs BeanFactoryPostProcessormaketheworldwise·2022년 4월 10일](https://velog.io/@maketheworldwise/BeanPostProcessor-vs-BeanFactoryPostProcessor)
 * [spring[5] ComponentScan과 Component](https://ililil9482.tistory.com/127)
