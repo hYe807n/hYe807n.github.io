@@ -1,4 +1,4 @@
-bㅠㅠ---
+---
 title: "자료구조 ArrayList 동적 배열"
 layout: post
 subtitle: 자료구조
@@ -18,9 +18,6 @@ future: true
 
 * this unordered seed list will be replaced by the toc
 {:toc}
-
-<br/>
-<br/>
 
 ### 시작하기에 앞서
 [지난 포스트](https://hye807n.github.io/studylog/Array.html)에 이어 이번에는 동적 배열인 `ArrayList` 이다. `ArrayList`의 개념과 정적/동적 배열 둘의 장단점을 비교해볼 것이다.
@@ -95,9 +92,10 @@ future: true
 <br/>
 
 [참고자료]<br/> 
-	https://hoehen-flug.tistory.com/28
-	https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList
-	https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98
-	https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95
-	https://chunsubyeong.tistory.com/81
-	https://velog.io/@goaldae/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EB%B3%B8-%EC%88%99%EC%A7%80-%EB%82%B4%EC%9A%A9-C%EC%99%80-Java-%EB%B9%84%EA%B5%90%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C
+-   [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28)
+-	[[자료구조 | Java] 리스트(List) - ArrayList
+](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
+-	[ArrayList 자료구조 실전 구현 강의 (JAVA)](https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98)
+-	[자바 ArrayList 구조 & 사용법 정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95)
+-	[[JAVA]ArrayList의 사용법과 주요 메서드의 시간복잡도](https://chunsubyeong.tistory.com/81)
+-	[알고리즘 기본 숙지 내용 : C++와 Java 비교를 중심으로](https://velog.io/@goaldae/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EB%B3%B8-%EC%88%99%EC%A7%80-%EB%82%B4%EC%9A%A9-C%EC%99%80-Java-%EB%B9%84%EA%B5%90%EB%A5%BC-%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C)
