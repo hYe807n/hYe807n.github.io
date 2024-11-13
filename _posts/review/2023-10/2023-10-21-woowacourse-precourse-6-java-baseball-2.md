@@ -2,7 +2,7 @@
 title: "[우아한 테크코스-프리코스 1주차] 숫자야구게임 구현 과정"
 layout: post
 subtitle: "woowacourse precourse 6 - 1st week mission"
-category: java
+category: review
 tags: java woowacourse-precourse-6
 published: true
 future: true
