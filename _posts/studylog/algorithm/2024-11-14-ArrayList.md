@@ -11,8 +11,8 @@ future: true
 > **이 장에서 배울 내용**
 >
 > * ArrayList
-> * ArrayList, Array 장단점 비교
 > * ArrayList 관련 API
+> * ArrayList, Array 장단점 비교
 
 <!--more-->
 
@@ -72,7 +72,7 @@ future: true
 - **단점**
     - **속도(삭제기능)**: `ArrayList` 는 빈 공간을 허용하지 않고, `Array` 는 삭제 시 해당 공간이 빈 공간으로 남는다. 그래서 삭제 작업이 많을 경우에는 `ArrayList` 속도가 더 느리다.
     - **주소를 통한 접근**: `Array`와 다르게 연속적으로 메모리 할당을 받지 않고, 주소로 가지고 있기 때문에 index 를 통한 접근 속도가 더 느리다.
-    - **메모리 공간 소모**: `ArrayList` 는 데이터를 객체로 다루기 때문에 적은 양의 데이터 사용 시에는 `Array` 사용이 더 유리하다.</br>
+    - **메모리 공간 소모**: `ArrayList` 는 데이터를 객체로 다루기 때문에 적은 양의 데이터 사용 시에는 `Array` 사용이 더 유리하다.
 
 
 <br/>
@@ -94,8 +94,8 @@ future: true
 <br/>
 
 [참고자료]<br/> 
-- [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28)
-- [ [자료구조 | Java] 리스트(List) - ArrayList ](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
+- [[자료구조] 배열(Array) 자료구조 알아보기 & Java 예제 코드(+ ArrayList)](https://hoehen-flug.tistory.com/28) 
+- [[자료구조 | Java] 리스트(List) - ArrayList](https://cdragon.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8List-ArrayList)
 - [ArrayList 자료구조 실전 구현 강의 (JAVA)](https://inpa.tistory.com/entry/DS-%F0%9F%A7%B1-ArrayList-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%ED%98%84-%EA%B0%95%EC%9D%98)
 - [자바 ArrayList 구조 & 사용법 정리](https://inpa.tistory.com/entry/JAVA-%E2%98%95-ArrayList-%EA%B5%AC%EC%A1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95)
 - [[JAVA]ArrayList의 사용법과 주요 메서드의 시간복잡도](https://chunsubyeong.tistory.com/81)
